@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$USER_HOME$/workspaces/robot-ric/SSHLibrary-master/.idea/SSHLibrary-master.iml" filepath="$USER_HOME$/workspaces/robot-ric/SSHLibrary-master/.idea/SSHLibrary-master.iml" />
       <module fileurl="file://$PROJECT_DIR$/python.iml" filepath="$PROJECT_DIR$/python.iml" />
+      <module fileurl="file://C:/development/robot-ric/.idea/robot-ric.iml" filepath="C:/development/robot-ric/.idea/robot-ric.iml" />
     </modules>
   </component>
 </project>
