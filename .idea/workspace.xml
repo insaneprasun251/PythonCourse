@@ -2,28 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="060e2543-9312-46b6-b493-753c5f35a29e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dictionaries/challenge3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dictionaries/dict_unpacking.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dictionaries/dictionary_comprehension.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/any_all/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/any_all/any.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datacalc/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datacalc/datecalc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shelvePractice/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shelvePractice/shelveExcercise.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutlePractice/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutlePractice/turtleExcercise.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zip/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zip/zip.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/python.iml" afterDir="false" />
-      <change beforePath="$USER_HOME$/workspaces/robot-ric/robot-ric/resources/environments/apl3_pdc_2_environment.robot" beforeDir="false" afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/resources/environments/apl3_pdc_2_environment.robot" afterDir="false" />
-      <change beforePath="$USER_HOME$/workspaces/robot-ric/robot-ric/resources/environments/apl3_pdc_environment.robot" beforeDir="false" afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/resources/environments/apl3_pdc_environment.robot" afterDir="false" />
-      <change beforePath="$USER_HOME$/workspaces/robot-ric/robot-ric/site_resource.robot" beforeDir="false" afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/site_resource.robot" afterDir="false" />
-      <change beforePath="$USER_HOME$/workspaces/robot-ric/robot-ric/utilities/startover_duplex.robot" beforeDir="false" afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/utilities/startover_duplex.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inheritance/classes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inheritance/inherit.py" beforeDir="false" afterPath="$PROJECT_DIR$/Inheritance/inherit.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -35,10 +16,12 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/PythonCourse$sets_challenge.coverage" NAME="sets_challenge Coverage Results" MODIFIED="1520004139779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sets" />
     <SUITE FILE_PATH="coverage/PythonCourse$any.coverage" NAME="any Coverage Results" MODIFIED="1526631547702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/any_all" />
+    <SUITE FILE_PATH="coverage/PythonCourse$classes.coverage" NAME="classes Coverage Results" MODIFIED="1531214989722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Inheritance" />
     <SUITE FILE_PATH="coverage/PythonCourse$substraction.coverage" NAME="substraction Coverage Results" MODIFIED="1519918670762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sets" />
     <SUITE FILE_PATH="coverage/PythonCourse$fileio.coverage" NAME="fileio Coverage Results" MODIFIED="1520005872956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FileIO" />
     <SUITE FILE_PATH="coverage/PythonCourse$symmetrical_difference_update.coverage" NAME="symmetrical_difference_update Coverage Results" MODIFIED="1520002922909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sets" />
     <SUITE FILE_PATH="coverage/PythonCourse$challenge3.coverage" NAME="challenge3 Coverage Results" MODIFIED="1526046862240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Dictionaries" />
+    <SUITE FILE_PATH="coverage/PythonCourse$inherit.coverage" NAME="inherit Coverage Results" MODIFIED="1531213742147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Inheritance" />
     <SUITE FILE_PATH="coverage/PythonCourse$symmetrical_subtraction.coverage" NAME="symmetrical_subtraction Coverage Results" MODIFIED="1519918876268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sets" />
     <SUITE FILE_PATH="coverage/PythonCourse$datecalc.coverage" NAME="datecalc Coverage Results" MODIFIED="1529072684502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/datacalc" />
     <SUITE FILE_PATH="coverage/PythonCourse$tuples.coverage" NAME="tuples Coverage Results" MODIFIED="1526025688686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tuples" />
@@ -57,11 +40,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="datecalc.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="datecalc.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/datacalc/datecalc.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+            <state relative-caret-position="598">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+              <folding>
+                <element signature="e#247#258#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="inherit.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Inheritance/inherit.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="classes.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Inheritance/classes.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="487">
+              <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -120,6 +124,8 @@
         <option value="$PROJECT_DIR$/shelvePractice/shelveExcercise.py" />
         <option value="$PROJECT_DIR$/tutlePractice/turtleExcercise.py" />
         <option value="$PROJECT_DIR$/datacalc/datecalc.py" />
+        <option value="$PROJECT_DIR$/Inheritance/inherit.py" />
+        <option value="$PROJECT_DIR$/Inheritance/classes.py" />
       </list>
     </option>
   </component>
@@ -158,6 +164,11 @@
               <item name="PythonCourse" type="b2602c69:ProjectViewProjectNode" />
               <item name="PythonCourse" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="PythonCourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PythonCourse" type="462c0819:PsiDirectoryNode" />
+              <item name="Inheritance" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -167,8 +178,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="C:/development/robot-ric" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -182,7 +193,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.datecalc">
+  <component name="RunManager" selected="Python.classes">
+    <configuration name="classes" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Inheritance" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Inheritance/classes.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="datecalc" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -202,7 +232,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="shelve (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="inherit" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -210,31 +240,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/shelvePractice" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Inheritance" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/shelvePractice/shelve.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="shelve" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/shelve" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/shelve/shelve.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Inheritance/inherit.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -279,19 +290,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.shelve" />
-      <item itemvalue="Python.shelve (1)" />
       <item itemvalue="Python.shelveExcercise" />
       <item itemvalue="Python.turtleExcercise" />
       <item itemvalue="Python.datecalc" />
+      <item itemvalue="Python.inherit" />
+      <item itemvalue="Python.classes" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.classes" />
+        <item itemvalue="Python.inherit" />
         <item itemvalue="Python.datecalc" />
         <item itemvalue="Python.turtleExcercise" />
         <item itemvalue="Python.shelveExcercise" />
-        <item itemvalue="Python.shelve (1)" />
-        <item itemvalue="Python.shelve" />
       </list>
     </recent_temporary>
   </component>
@@ -327,7 +338,21 @@
       <option name="project" value="LOCAL" />
       <updated>1520006350687</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Sets challenge added">
+      <created>1531213067138</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1531213067138</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added inheritance module.">
+      <created>1531213827349</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1531213827349</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView">
@@ -341,15 +366,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="1" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32890365" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50159913" side_tool="true" weight="0.32890365" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32890365" />
       <window_info anchor="bottom" id="Python Console" order="8" weight="0.32890365" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840087" weight="0.32890365" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49840087" visible="true" weight="0.32829374" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4978678" weight="0.32225913" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4994463" visible="true" weight="0.31130064" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4994463" visible="true" weight="0.3109375" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -373,7 +399,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Sets challenge added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sets challenge added" />
+    <MESSAGE value="Added inheritance module." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added inheritance module." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -381,16 +408,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Dictionaries/join_locations.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-104" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dictionaries/challenge2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-794" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Sets/sets.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -554,13 +571,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/workspaces/robot-ric/robot-ric/resources/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/workspaces/robot-ric/robot-ric/resources/utils.py" />
     <entry file="file://$USER_HOME$/workspaces/robot-ric/robot-ric/resources/ssh_commands.robot">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
@@ -683,8 +694,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/datacalc/datecalc.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        <state relative-caret-position="598">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#247#258#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Inheritance/inherit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Inheritance/classes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="487">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
         </state>
       </provider>
     </entry>

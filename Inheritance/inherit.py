@@ -2,10 +2,12 @@ class Animal(object):
     def __init__(self):
         print("Animal created")
 
+    @staticmethod
     def whoAmI(self):
         print("Animal")
 
-    def eat(self):
+    @staticmethod
+    def eat():
         print("Eating")
 
 
@@ -18,7 +20,8 @@ class Dog(Animal):
         # Any method that is the same as in the Parent class is overwritten by this.
         print('Dog')
 
-    def bark(self):
+    @staticmethod
+    def bark():
         print("woof!")
 
 
