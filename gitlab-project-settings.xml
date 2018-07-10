@@ -2,13 +2,5 @@
   <component name="SettingsState">
     <option name="host" value="" />
     <option name="token" value="" />
-    <option name="servers">
-      <list>
-        <ServerDto>
-          <option name="host" value="https://gitlab.com/mkucman/PythonCourse" />
-          <option name="token" value="vxPvL_y2h9RzuQqxc78x" />
-        </ServerDto>
-      </list>
-    </option>
   </component>
 </application>
