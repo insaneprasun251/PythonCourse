@@ -9,8 +9,5 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="jdk" jdkName="Python 3.6 (course-py) (1)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="robot-ric" />
-    <orderEntry type="module" module-name="SSHLibrary-master" />
-    <orderEntry type="module" module-name="robot-ric" />
   </component>
 </module>
