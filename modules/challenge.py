@@ -10,8 +10,9 @@ class Hands:
     players_hand = 0
 
 
-class playerMoney:
-    balance = 100.00
+def add_money(balance, amount):
+    balance += amount
+    return float(balance)
 
 
 def dealerplay():
@@ -23,22 +24,43 @@ def dealerplay():
             Hands.dealer_hand += 11
         else:
             Hands.dealer_hand += int(card)
-        # print("Your hand is: " + str(Hands.dealer_hand))
         continue
     return Hands.dealer_hand
-    # if Hands.dealer_hand > 21:
-        # print("Your hand is: " + str(Hands.dealer_hand))
 
 
 def play():
 
+    balance = 100
+    buy_in = float(input("Please choose the amount you want to buy in with: "))
+    if float(buy_in) <= balance:
+        print("Proceed to enjoy the game")
+        balance -= float(buy_in)
+
+    elif buy_in > balance:
+        print("You don't have enough gold, your balance is: " + str(balance))
+        answer = input("Do you want to add money to wallet? ")
+
+        while buy_in > balance:
+            if answer == 'yes':
+                money = float(input("How much do you want to add? "))
+                print(money)
+                print(float(balance))
+                balance = add_money(balance, money)
+                print(balance)
+            if buy_in <= balance:
+                print("Now you have enough. Proceed, the money has been deducted from your account.")
+                balance -= buy_in
+                break
+        else:
+            print("This is the end of game for you.")
+
     while True:
-        decision = input('Please choose between hitting or standing: ')
+        decision = input('Please choose between hitting or standing or checking balance: ')
         if decision == 'hit':
             card = choice(Deck.cards)
-            if Hands.players_hand > 10 and card == 'ace':
+            if Hands.players_hand >= 10 and card == 'ace':
                 Hands.players_hand += 1
-            elif Hands.players_hand < 10 and card == 'ace':
+            elif Hands.players_hand <= 10 and card == 'ace':
                 Hands.players_hand += 11
             else:
                 Hands.players_hand += int(card)
@@ -46,34 +68,28 @@ def play():
             continue
         elif decision == 'stand':
             print("Your hand is: " + str(Hands.players_hand))
-            return Hands.players_hand
+            return Hands.players_hand, buy_in, balance
+        elif decision == 'balance':
+            print("Your balance is:  " + str(balance))
 
 
 class BlackJack:
-    player = 0
-    buy_in = input("Please declare sum you want to buy in: ")
-    if float(buy_in) <= playerMoney.balance:
-        print("Proceed to enjoy the game")
-        playerMoney.balance -= float(buy_in)
-        player = play()
-    else:
-        print("You ain't made of money")
-
     dealer = dealerplay()
-
-    if player == 21:
+    player_hand, buy_in, balance = play()
+    if player_hand == 21:
         print("You won motherfucker!")
-        playerMoney.balance += float(buy_in) + (float(buy_in) * 1.5)
-    elif player == 0:
+        balance += float(buy_in) + (float(buy_in) * 1.5)
+        print("Your balance is: " + str(balance))
+    elif player_hand == 0:
         print("You lost before even playing")
-    elif player < 21:
+    elif player_hand < 21:
         if dealer < 21:
-            if dealer > player:
+            if dealer > player_hand:
                 print("House won with: " + str(dealer))
+                print("Your balance is: " + str(balance))
         else:
-            print("You won")
-            playerMoney.balance += float(buy_in) * 2
-
+            balance += float(buy_in) * 2
+            print("You won, now your balance is: " + str(balance))
     else:
         print("You lost")
         print("House had: " + str(dealer))
