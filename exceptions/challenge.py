@@ -28,5 +28,4 @@ def ask():
             print("Thank you, your number square is: " + str(value * value))
             break
 
-
 ask()
