@@ -36,7 +36,7 @@ class Card:
         self.rank = rank
 
     def __str__(self):
-        return self.suit +  self.rank
+        return self.suit + self.rank
 
     def grab_suit(self):
         return self.suit
