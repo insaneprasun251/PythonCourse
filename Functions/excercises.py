@@ -85,4 +85,25 @@ def spy_game(my_list):
     return len(code) == 1
 
 
+def count_primes(num):
+    # Store our prime numbers
+    primes = [2]
+    # Counting going up to the input number
+    x = 3
+    # Checks for 0 or 1 input
+    if num < 2:
+        return 0
+    # x is going through every number up to input number
+    while x <= num:
+        # Check if x is prime
+        for y in range(3, x, 2):
+            if x % y == 0:
+                x += 2
+                break
+        else:
+            primes.append(x)
+            x += 2
+    return len(primes)
 
+
+print(count_primes(100))
