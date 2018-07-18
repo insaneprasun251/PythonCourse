@@ -58,13 +58,52 @@ def summer_69(arr):
     # TODO: Correct This
 
     result = 0
-    pass_until = 6
+    add = True
     for i in arr:
-        if i != pass_until:
-            result += i
-        else:
+        while add:
+            if i != 6:
+                result += i
+                break
+            else:
+                add = False
+        while not add:
             if i != 9:
-                continue
+                break
+            else:
+                add = True
+                break
+
     return result
 
 
+def spy_game(my_list):
+    code = [0, 0, 7, 'x']
+
+    for num in my_list:
+        if num == code[0]:
+            code.pop(0)
+    return len(code) == 1
+
+
+def count_primes(num):
+    # Store our prime numbers
+    primes = [2]
+    # Counting going up to the input number
+    x = 3
+    # Checks for 0 or 1 input
+    if num < 2:
+        return 0
+    # x is going through every number up to input number
+    while x <= num:
+        # Check if x is prime
+        for y in range(3, x, 2):
+            if x % y == 0:
+                x += 2
+                break
+        else:
+            primes.append(x)
+            x += 2
+    return len(primes)
+
+
+print(count_primes(100))
