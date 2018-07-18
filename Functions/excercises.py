@@ -58,13 +58,24 @@ def summer_69(arr):
     # TODO: Correct This
 
     result = 0
-    pass_until = 6
+    add = True
     for i in arr:
-        if i != pass_until:
-            result += i
-        else:
+        while add:
+            if i != 6:
+                result += i
+                break
+            else:
+                add = False
+        while not add:
             if i != 9:
-                continue
+                break
+            else:
+                add = True
+                break
+
     return result
 
 
+print(summer_69([1, 3, 5]))
+print(summer_69([4, 5, 6, 7, 8, 9]))
+print(summer_69([2, 1, 6, 9, 11]))
