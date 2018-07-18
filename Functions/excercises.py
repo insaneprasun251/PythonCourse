@@ -76,6 +76,13 @@ def summer_69(arr):
     return result
 
 
-print(summer_69([1, 3, 5]))
-print(summer_69([4, 5, 6, 7, 8, 9]))
-print(summer_69([2, 1, 6, 9, 11]))
+def spy_game(my_list):
+    code = [0, 0, 7, 'x']
+
+    for num in my_list:
+        if num == code[0]:
+            code.pop(0)
+    return len(code) == 1
+
+
+
