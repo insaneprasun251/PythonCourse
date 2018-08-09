@@ -1,9 +1,9 @@
 <application>
   <component name="MaterialThemeConfig">
     <option name="version" value="2.7.2" />
-    <option name="selectedTheme" value="DEEPOCEAN" />
+    <option name="highlightColor" value="80cbc4" />
     <option name="isContrastMode" value="true" />
-    <option name="accentColor" value="84ffff" />
+    <option name="accentColor" value="009688" />
     <option name="darkTitleBar" value="true" />
     <option name="userId" value="-5b997f0d:16482eb5b0b:-8000" />
     <option name="overrideAccentColor" value="true" />
