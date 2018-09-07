@@ -1,10 +1,10 @@
 class Account:
-    def __init__(self, owner, balance):
+    def __init__(self, owner, balance=0):
         self.owner = owner
         self.balance = balance
 
     def __str__(self):
-        return("Account owner: " + str(self.owner)) + "\n" + ("Account balance: $" + str(self.balance))
+        return ("Account owner: " + str(self.owner)) + "\n" + ("Account balance: $" + str(self.balance))
 
     def deposit(self, amount):
         self.balance += amount
