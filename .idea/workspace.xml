@@ -1,250 +1,119 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="060e2543-9312-46b6-b493-753c5f35a29e" name="Default" comment="Added">
+    <list default="true" id="35a8eb8e-0e22-4f3c-9474-a08bb27e598a" name="Default" comment="Added">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/libs/REST_ILottery.py" afterDir="false" />
-      <change afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/libs/ilottery_requests/__init__.py" afterDir="false" />
-      <change afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/libs/ilottery_requests/general.py" afterDir="false" />
-      <change afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/libs/ilottery_requests/minilotto.py" afterDir="false" />
-      <change afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/libs/ilottery_requests/registration.py" afterDir="false" />
-      <change afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/libs/ilottery_requests/registry.py" afterDir="false" />
-      <change afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/libs/navigator_requests/promo.py" afterDir="false" />
-      <change afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/resources/environments/A2.0-INT_environment.robot" afterDir="false" />
-      <change afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/resources/environments/A2.0-TestAutomation_environment.robot" afterDir="false" />
-      <change afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/resources/environments/A3.1-APL-BDC2_environment.robot" afterDir="false" />
-      <change afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/resources/environments/A3.1-APL-BDC_environment.robot" afterDir="false" />
-      <change afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/resources/environments/A3.1-APL-PDC2_environment.robot" afterDir="false" />
-      <change afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/resources/environments/A3.1-APL-PDC_environment.robot" afterDir="false" />
-      <change afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/resources/environments/A3.1-APL2-BDC2_environment.robot" afterDir="false" />
-      <change afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/resources/environments/A3.1-APL2-BDC_environment.robot" afterDir="false" />
-      <change afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/resources/environments/A3.1-APL2-PDC2_environment.robot" afterDir="false" />
-      <change afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/resources/environments/A3.1-APL2-PDC_environment.robot" afterDir="false" />
-      <change afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/resources/environments/A3.1-DEVINT_environment.robot" afterDir="false" />
-      <change afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/resources/environments/A3.1-INT_environment.robot" afterDir="false" />
-      <change afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/resources/environments/A3.1-QA1_environment.robot" afterDir="false" />
-      <change afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/resources/environments/A3.1-QA2_environment.robot" afterDir="false" />
-      <change afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/resources/environments/A3.1-TESTING_environment.robot" afterDir="false" />
-      <change afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/resources/environments/NASPL-data_environment.robot" afterDir="false" />
-      <change afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/resources/environments/NEOS-QA_environment.robot" afterDir="false" />
-      <change afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/resources/environments/a22-sandbox_environment.robot" afterDir="false" />
-      <change afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/resources/pages/interactive/__init__.py" afterDir="false" />
-      <change afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/resources/pages/interactive/base_page.py" afterDir="false" />
-      <change afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/resources/pages/interactive/home.py" afterDir="false" />
-      <change afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/resources/pages/interactive/registration.py" afterDir="false" />
-      <change afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/resources/res_utils.py" afterDir="false" />
-      <change afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/utilities/init_data/10__organization.robot" afterDir="false" />
-      <change afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/utilities/init_data/11__banks.robot" afterDir="false" />
-      <change afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/utilities/init_data/11__banks_bdd.robot" afterDir="false" />
-      <change afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/utilities/init_data/12__agency.robot" afterDir="false" />
-      <change afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/utilities/init_data/12__agency_bdd.robot" afterDir="false" />
-      <change afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/utilities/init_data/12__property.robot" afterDir="false" />
-      <change afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/utilities/init_data/12__property_bdd.robot" afterDir="false" />
-      <change afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/utilities/init_data/14__privilegeGroup.robot" afterDir="false" />
-      <change afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/utilities/init_data/14__representative.robot" afterDir="false" />
-      <change afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/utilities/init_data/14__representative_bdd.robot" afterDir="false" />
-      <change afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/utilities/init_data/14__routes.robot" afterDir="false" />
-      <change afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/utilities/init_data/14__settlement_classes.robot" afterDir="false" />
-      <change afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/utilities/init_data/14__suppliers.robot" afterDir="false" />
-      <change afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/utilities/init_data/14__warehouses.robot" afterDir="false" />
-      <change afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/utilities/init_data/14__warehouses_bdd.robot" afterDir="false" />
-      <change afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/utilities/init_data/15__price_points.robot" afterDir="false" />
-      <change afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/utilities/init_data/21__office.robot" afterDir="false" />
-      <change afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/utilities/init_data/24__lines.robot" afterDir="false" />
-      <change afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/utilities/init_data/50__user.robot" afterDir="false" />
-      <change afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/utilities/init_data/50__users_bdd.robot" afterDir="false" />
-      <change afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/utilities/init_data/51__user_pictures.robot" afterDir="false" />
-      <change afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/utilities/init_data/60__player.robot" afterDir="false" />
-      <change afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/utilities/init_data/60__player_bdd.robot" afterDir="false" />
-      <change afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/utilities/init_data/68__terminal_templates.robot" afterDir="false" />
-      <change afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/utilities/init_data/69__terminal_groups_bdd.robot" afterDir="false" />
-      <change afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/utilities/init_data/70__retailers.robot" afterDir="false" />
-      <change afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/utilities/init_data/70__retailers_bdd.robot" afterDir="false" />
-      <change afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/utilities/init_data/88__promotions.robot" afterDir="false" />
-      <change afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/utilities/init_data/90__claim.robot" afterDir="false" />
-      <change afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/utilities/init_data/agency_data_create.robot" afterDir="false" />
-      <change afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/utilities/init_data/privilege_group_data_create.robot" afterDir="false" />
-      <change afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/utilities/init_data/retailer_data_create.robot" afterDir="false" />
-      <change afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/utilities/init_data/users_data_create.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/challenge.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/challenge.py" afterDir="false" />
-      <change beforePath="$USER_HOME$/workspaces/robot-ric/robot-ric/.gitignore" beforeDir="false" afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/.gitignore" afterDir="false" />
-      <change beforePath="$USER_HOME$/workspaces/robot-ric/robot-ric/Jenkinsfile" beforeDir="false" afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/Jenkinsfile" afterDir="false" />
-      <change beforePath="$USER_HOME$/workspaces/robot-ric/robot-ric/__init__.robot" beforeDir="false" afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/__init__.robot" afterDir="false" />
-      <change beforePath="$USER_HOME$/workspaces/robot-ric/robot-ric/argumentfile_example.txt" beforeDir="false" afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/argumentfile_example.txt" afterDir="false" />
-      <change beforePath="$USER_HOME$/workspaces/robot-ric/robot-ric/libs/REST_Navigator.py" beforeDir="false" afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/libs/REST_Navigator.py" afterDir="false" />
-      <change beforePath="$USER_HOME$/workspaces/robot-ric/robot-ric/libs/RPC.py" beforeDir="false" afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/libs/RPCLibrary.py" afterDir="false" />
-      <change beforePath="$USER_HOME$/workspaces/robot-ric/robot-ric/libs/data_creation.py" beforeDir="false" afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/libs/data_creation.py" afterDir="false" />
-      <change beforePath="$USER_HOME$/workspaces/robot-ric/robot-ric/libs/navigator_requests/__init__.py" beforeDir="false" afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/libs/navigator_requests/__init__.py" afterDir="false" />
-      <change beforePath="$USER_HOME$/workspaces/robot-ric/robot-ric/libs/navigator_requests/ips.py" beforeDir="false" afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/libs/navigator_requests/ips.py" afterDir="false" />
-      <change beforePath="$USER_HOME$/workspaces/robot-ric/robot-ric/libs/navigator_requests/ms.py" beforeDir="false" afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/libs/navigator_requests/ms.py" afterDir="false" />
-      <change beforePath="$USER_HOME$/workspaces/robot-ric/robot-ric/libs/navigator_requests/ps.py" beforeDir="false" afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/libs/navigator_requests/ps.py" afterDir="false" />
-      <change beforePath="$USER_HOME$/workspaces/robot-ric/robot-ric/libs/navigator_requests/registry.py" beforeDir="false" afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/libs/navigator_requests/registry.py" afterDir="false" />
-      <change beforePath="$USER_HOME$/workspaces/robot-ric/robot-ric/libs/navigator_requests/rm.py" beforeDir="false" afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/libs/navigator_requests/rm.py" afterDir="false" />
-      <change beforePath="$USER_HOME$/workspaces/robot-ric/robot-ric/libs/time_management.py" beforeDir="false" afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/libs/time_management.py" afterDir="false" />
-      <change beforePath="$USER_HOME$/workspaces/robot-ric/robot-ric/requirements.txt" beforeDir="false" afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/requirements.txt" afterDir="false" />
-      <change beforePath="$USER_HOME$/workspaces/robot-ric/robot-ric/resources/AuroraPagesLibrary.py" beforeDir="false" afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/resources/AuroraPagesLibrary.py" afterDir="false" />
-      <change beforePath="$USER_HOME$/workspaces/robot-ric/robot-ric/resources/adapter_keywords.robot" beforeDir="false" afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/resources/adapter_keywords.robot" afterDir="false" />
-      <change beforePath="$USER_HOME$/workspaces/robot-ric/robot-ric/resources/arte_keywords.robot" beforeDir="false" afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/resources/arte_keywords.robot" afterDir="false" />
-      <change beforePath="$USER_HOME$/workspaces/robot-ric/robot-ric/resources/datastage_keywords.robot" beforeDir="false" afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/resources/datastage_keywords.robot" afterDir="false" />
-      <change beforePath="$USER_HOME$/workspaces/robot-ric/robot-ric/resources/dayend_keywords.robot" beforeDir="false" afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/resources/dayend_keywords.robot" afterDir="false" />
-      <change beforePath="$USER_HOME$/workspaces/robot-ric/robot-ric/resources/db.robot" beforeDir="false" afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/resources/db.robot" afterDir="false" />
-      <change beforePath="$USER_HOME$/workspaces/robot-ric/robot-ric/resources/environments/default_environment.robot" beforeDir="false" afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/resources/environments/default_environment.robot" afterDir="false" />
-      <change beforePath="$USER_HOME$/workspaces/robot-ric/robot-ric/resources/environments/qa1_dev_environment.robot" beforeDir="false" />
-      <change beforePath="$USER_HOME$/workspaces/robot-ric/robot-ric/resources/environments/qa1_terminals.json" beforeDir="false" />
-      <change beforePath="$USER_HOME$/workspaces/robot-ric/robot-ric/resources/este2bus_keywords.robot" beforeDir="false" afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/resources/este2bus_keywords.robot" afterDir="false" />
-      <change beforePath="$USER_HOME$/workspaces/robot-ric/robot-ric/resources/este_keywords.robot" beforeDir="false" afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/resources/este_keywords.robot" afterDir="false" />
-      <change beforePath="$USER_HOME$/workspaces/robot-ric/robot-ric/resources/game_master_keywords.robot" beforeDir="false" afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/resources/game_master_keywords.robot" afterDir="false" />
-      <change beforePath="$USER_HOME$/workspaces/robot-ric/robot-ric/resources/kafka_keywords.robot" beforeDir="false" afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/resources/kafka_keywords.robot" afterDir="false" />
-      <change beforePath="$USER_HOME$/workspaces/robot-ric/robot-ric/resources/navigator_keywords.robot" beforeDir="false" afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/resources/navigator_keywords.robot" afterDir="false" />
-      <change beforePath="$USER_HOME$/workspaces/robot-ric/robot-ric/resources/pages/__init__.py" beforeDir="false" afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/resources/pages/__init__.py" afterDir="false" />
-      <change beforePath="$USER_HOME$/workspaces/robot-ric/robot-ric/resources/parameters_keywords.robot" beforeDir="false" afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/resources/parameters_keywords.robot" afterDir="false" />
-      <change beforePath="$USER_HOME$/workspaces/robot-ric/robot-ric/resources/payo_keywords.robot" beforeDir="false" afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/resources/payo_keywords.robot" afterDir="false" />
-      <change beforePath="$USER_HOME$/workspaces/robot-ric/robot-ric/resources/rpc.robot" beforeDir="false" afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/resources/rpc.robot" afterDir="false" />
-      <change beforePath="$USER_HOME$/workspaces/robot-ric/robot-ric/resources/ssh_commands.robot" beforeDir="false" afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/resources/ssh_commands.robot" afterDir="false" />
-      <change beforePath="$USER_HOME$/workspaces/robot-ric/robot-ric/resources/utils.py" beforeDir="false" />
-      <change beforePath="$USER_HOME$/workspaces/robot-ric/robot-ric/resources/wagering.robot" beforeDir="false" afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/resources/wagering.robot" afterDir="false" />
-      <change beforePath="$USER_HOME$/workspaces/robot-ric/robot-ric/site_resource.robot" beforeDir="false" afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/site_resource.robot" afterDir="false" />
-      <change beforePath="$USER_HOME$/workspaces/robot-ric/robot-ric/utilities/init_data/__init__.robot" beforeDir="false" afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/utilities/init_data/__init__.robot" afterDir="false" />
-      <change beforePath="$USER_HOME$/workspaces/robot-ric/robot-ric/utilities/init_data/annuityControl.robot" beforeDir="false" afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/utilities/init_data/21__annuityControl.robot" afterDir="false" />
-      <change beforePath="$USER_HOME$/workspaces/robot-ric/robot-ric/utilities/init_data/banks.robot" beforeDir="false" afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/utilities/init_data/banks_data_create.robot" afterDir="false" />
-      <change beforePath="$USER_HOME$/workspaces/robot-ric/robot-ric/utilities/init_data/checkStub.robot" beforeDir="false" afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/utilities/init_data/21__checkStub.robot" afterDir="false" />
-      <change beforePath="$USER_HOME$/workspaces/robot-ric/robot-ric/utilities/init_data/claim.robot" beforeDir="false" />
-      <change beforePath="$USER_HOME$/workspaces/robot-ric/robot-ric/utilities/init_data/courier_route.robot" beforeDir="false" afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/utilities/init_data/25__courier_route.robot" afterDir="false" />
-      <change beforePath="$USER_HOME$/workspaces/robot-ric/robot-ric/utilities/init_data/couriers.robot" beforeDir="false" afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/utilities/init_data/14__couriers.robot" afterDir="false" />
-      <change beforePath="$USER_HOME$/workspaces/robot-ric/robot-ric/utilities/init_data/data_create.robot" beforeDir="false" afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/utilities/init_data/terminal_group_data_create.robot" afterDir="false" />
-      <change beforePath="$USER_HOME$/workspaces/robot-ric/robot-ric/utilities/init_data/department.robot" beforeDir="false" afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/utilities/init_data/20__department.robot" afterDir="false" />
-      <change beforePath="$USER_HOME$/workspaces/robot-ric/robot-ric/utilities/init_data/lotteryBankAccount.robot" beforeDir="false" afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/utilities/init_data/22__lotteryBankAccount.robot" afterDir="false" />
-      <change beforePath="$USER_HOME$/workspaces/robot-ric/robot-ric/utilities/init_data/organization.robot" beforeDir="false" afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/utilities/init_data/organization_data_create.robot" afterDir="false" />
-      <change beforePath="$USER_HOME$/workspaces/robot-ric/robot-ric/utilities/init_data/passwordPolicy.robot" beforeDir="false" afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/utilities/init_data/12__passwordPolicy.robot" afterDir="false" />
-      <change beforePath="$USER_HOME$/workspaces/robot-ric/robot-ric/utilities/init_data/player.robot" beforeDir="false" afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/utilities/init_data/player_data_create.robot" afterDir="false" />
-      <change beforePath="$USER_HOME$/workspaces/robot-ric/robot-ric/utilities/init_data/printer.robot" beforeDir="false" afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/utilities/init_data/11__printer.robot" afterDir="false" />
-      <change beforePath="$USER_HOME$/workspaces/robot-ric/robot-ric/utilities/init_data/privilegeGroup.robot" beforeDir="false" />
-      <change beforePath="$USER_HOME$/workspaces/robot-ric/robot-ric/utilities/init_data/promotions.robot" beforeDir="false" />
-      <change beforePath="$USER_HOME$/workspaces/robot-ric/robot-ric/utilities/init_data/property.robot" beforeDir="false" afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/utilities/init_data/property_data_create.robot" afterDir="false" />
-      <change beforePath="$USER_HOME$/workspaces/robot-ric/robot-ric/utilities/init_data/representative.robot" beforeDir="false" afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/utilities/init_data/representative_data_create.robot" afterDir="false" />
-      <change beforePath="$USER_HOME$/workspaces/robot-ric/robot-ric/utilities/init_data/restrictedPlayer.robot" beforeDir="false" afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/utilities/init_data/61__restrictedPlayer.robot" afterDir="false" />
-      <change beforePath="$USER_HOME$/workspaces/robot-ric/robot-ric/utilities/init_data/role.robot" beforeDir="false" afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/utilities/init_data/14__role.robot" afterDir="false" />
-      <change beforePath="$USER_HOME$/workspaces/robot-ric/robot-ric/utilities/init_data/routes.robot" beforeDir="false" />
-      <change beforePath="$USER_HOME$/workspaces/robot-ric/robot-ric/utilities/init_data/setoff.robot" beforeDir="false" afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/utilities/init_data/12__setoff.robot" afterDir="false" />
-      <change beforePath="$USER_HOME$/workspaces/robot-ric/robot-ric/utilities/init_data/suppliers.robot" beforeDir="false" />
-      <change beforePath="$USER_HOME$/workspaces/robot-ric/robot-ric/utilities/init_data/taxCategory.robot" beforeDir="false" afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/utilities/init_data/12__taxCategory.robot" afterDir="false" />
-      <change beforePath="$USER_HOME$/workspaces/robot-ric/robot-ric/utilities/init_data/terminal_groups.robot" beforeDir="false" afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/utilities/init_data/69__terminal_groups.robot" afterDir="false" />
-      <change beforePath="$USER_HOME$/workspaces/robot-ric/robot-ric/utilities/init_data/threshold_classes.robot" beforeDir="false" afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/utilities/init_data/14__threshold_classes.robot" afterDir="false" />
-      <change beforePath="$USER_HOME$/workspaces/robot-ric/robot-ric/utilities/init_data/user.robot" beforeDir="false" />
-      <change beforePath="$USER_HOME$/workspaces/robot-ric/robot-ric/utilities/init_data/warehouses.robot" beforeDir="false" afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/utilities/init_data/warehouse_data_create.robot" afterDir="false" />
-      <change beforePath="$USER_HOME$/workspaces/robot-ric/robot-ric/utilities/startover.robot" beforeDir="false" afterPath="$USER_HOME$/workspaces/robot-ric/robot-ric/utilities/startover.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/input/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/PythonCourse$sets_challenge.coverage" NAME="sets_challenge Coverage Results" MODIFIED="1520004139779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sets" />
-    <SUITE FILE_PATH="coverage/PythonCourse$any.coverage" NAME="any Coverage Results" MODIFIED="1526631547702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/any_all" />
-    <SUITE FILE_PATH="coverage/PythonCourse$classes.coverage" NAME="classes Coverage Results" MODIFIED="1531214989722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Inheritance" />
-    <SUITE FILE_PATH="coverage/PythonCourse$substraction.coverage" NAME="substraction Coverage Results" MODIFIED="1519918670762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sets" />
-    <SUITE FILE_PATH="coverage/PythonCourse$fileio.coverage" NAME="fileio Coverage Results" MODIFIED="1520005872956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FileIO" />
-    <SUITE FILE_PATH="coverage/PythonCourse$symmetrical_difference_update.coverage" NAME="symmetrical_difference_update Coverage Results" MODIFIED="1520002922909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sets" />
-    <SUITE FILE_PATH="coverage/PythonCourse$challenge.coverage" NAME="challenge Coverage Results" MODIFIED="1531222024512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Inheritance" />
-    <SUITE FILE_PATH="coverage/PythonCourse$challenge3.coverage" NAME="challenge3 Coverage Results" MODIFIED="1526046862240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Dictionaries" />
-    <SUITE FILE_PATH="coverage/PythonCourse$inherit.coverage" NAME="inherit Coverage Results" MODIFIED="1531213742147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Inheritance" />
-    <SUITE FILE_PATH="coverage/PythonCourse$symmetrical_subtraction.coverage" NAME="symmetrical_subtraction Coverage Results" MODIFIED="1519918876268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sets" />
-    <SUITE FILE_PATH="coverage/PythonCourse$datecalc.coverage" NAME="datecalc Coverage Results" MODIFIED="1529072684502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/datacalc" />
-    <SUITE FILE_PATH="coverage/PythonCourse$tuples.coverage" NAME="tuples Coverage Results" MODIFIED="1526025688686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tuples" />
-    <SUITE FILE_PATH="coverage/PythonCourse$except.coverage" NAME="except Coverage Results" MODIFIED="1531232675067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exceptions" />
-    <SUITE FILE_PATH="coverage/PythonCourse$module.coverage" NAME="module Coverage Results" MODIFIED="1531315865833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules" />
-    <SUITE FILE_PATH="coverage/PythonCourse$challenge__2_.coverage" NAME="challenge (2) Coverage Results" MODIFIED="1531475290581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules" />
     <SUITE FILE_PATH="coverage/PythonCourse$turtleExcercise.coverage" NAME="turtleExcercise Coverage Results" MODIFIED="1528967743541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tutlePractice" />
-    <SUITE FILE_PATH="coverage/PythonCourse$dict_unpacking.coverage" NAME="dict_unpacking Coverage Results" MODIFIED="1526377292798" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Dictionaries" />
+    <SUITE FILE_PATH="coverage/PythonCourse$sets_challenge.coverage" NAME="sets_challenge Coverage Results" MODIFIED="1520004139779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sets" />
+    <SUITE FILE_PATH="coverage/PythonCourse$tuples.coverage" NAME="tuples Coverage Results" MODIFIED="1526025688686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tuples" />
+    <SUITE FILE_PATH="coverage/PythonCourse$challenge__2_.coverage" NAME="challenge (2) Coverage Results" MODIFIED="1531475706039" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules" />
+    <SUITE FILE_PATH="coverage/PythonCourse$object_oriented_programming.coverage" NAME="object_oriented_programming Coverage Results" MODIFIED="1532089931262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP" />
+    <SUITE FILE_PATH="coverage/PythonCourse$module.coverage" NAME="module Coverage Results" MODIFIED="1531315865833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules" />
+    <SUITE FILE_PATH="coverage/PythonCourse$fileio.coverage" NAME="fileio Coverage Results" MODIFIED="1520005872956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FileIO" />
+    <SUITE FILE_PATH="coverage/PythonCourse$except.coverage" NAME="except Coverage Results" MODIFIED="1531232675067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exceptions" />
+    <SUITE FILE_PATH="coverage/PythonCourse$classes.coverage" NAME="classes Coverage Results" MODIFIED="1531214989722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Inheritance" />
     <SUITE FILE_PATH="coverage/PythonCourse$shelve.coverage" NAME="shelve Coverage Results" MODIFIED="1528883997359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/shelve" />
     <SUITE FILE_PATH="coverage/PythonCourse$shelveExcercise.coverage" NAME="shelveExcercise Coverage Results" MODIFIED="1528899376633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/shelvePractice" />
+    <SUITE FILE_PATH="coverage/PythonCourse$challenge3.coverage" NAME="challenge3 Coverage Results" MODIFIED="1526046862240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Dictionaries" />
+    <SUITE FILE_PATH="coverage/PythonCourse$challenge.coverage" NAME="challenge Coverage Results" MODIFIED="1531222024512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Inheritance" />
+    <SUITE FILE_PATH="coverage/PythonCourse$symmetrical_difference_update.coverage" NAME="symmetrical_difference_update Coverage Results" MODIFIED="1520002922909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sets" />
     <SUITE FILE_PATH="coverage/PythonCourse$challenge__1_.coverage" NAME="challenge (1) Coverage Results" MODIFIED="1531233708275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exceptions" />
-    <SUITE FILE_PATH="coverage/PythonCourse$shelve__1_.coverage" NAME="shelve (1) Coverage Results" MODIFIED="1528888372443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/shelvePractice" />
+    <SUITE FILE_PATH="coverage/PythonCourse$excercise.coverage" NAME="excercise Coverage Results" MODIFIED="1531750722209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ArgsAndKwargs" />
     <SUITE FILE_PATH="coverage/PythonCourse$dictionary_comprehension.coverage" NAME="dictionary_comprehension Coverage Results" MODIFIED="1525878317452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Dictionaries" />
+    <SUITE FILE_PATH="coverage/PythonCourse$challenge_explained.coverage" NAME="challenge_explained Coverage Results" MODIFIED="1531487374572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules" />
+    <SUITE FILE_PATH="coverage/PythonCourse$datecalc.coverage" NAME="datecalc Coverage Results" MODIFIED="1529072684502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/datacalc" />
+    <SUITE FILE_PATH="coverage/PythonCourse$any.coverage" NAME="any Coverage Results" MODIFIED="1526631547702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/any_all" />
+    <SUITE FILE_PATH="coverage/PythonCourse$shelve__1_.coverage" NAME="shelve (1) Coverage Results" MODIFIED="1528888372443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/shelvePractice" />
+    <SUITE FILE_PATH="coverage/PythonCourse$inherit.coverage" NAME="inherit Coverage Results" MODIFIED="1531213742147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Inheritance" />
+    <SUITE FILE_PATH="coverage/PythonCourse$list.coverage" NAME="list Coverage Results" MODIFIED="1531746845606" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lists" />
+    <SUITE FILE_PATH="coverage/PythonCourse$database.coverage" NAME="database Coverage Results" MODIFIED="1532329009782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/databases" />
+    <SUITE FILE_PATH="coverage/PythonCourse$milestoneOne.coverage" NAME="milestoneOne Coverage Results" MODIFIED="1531725212189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/milestone" />
+    <SUITE FILE_PATH="coverage/PythonCourse$excercises.coverage" NAME="excercises Coverage Results" MODIFIED="1531900750857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Functions" />
+    <SUITE FILE_PATH="coverage/PythonCourse$symmetrical_subtraction.coverage" NAME="symmetrical_subtraction Coverage Results" MODIFIED="1519918876268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sets" />
+    <SUITE FILE_PATH="coverage/PythonCourse$substraction.coverage" NAME="substraction Coverage Results" MODIFIED="1519918670762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sets" />
+    <SUITE FILE_PATH="coverage/PythonCourse$argsAndKwargs.coverage" NAME="argsAndKwargs Coverage Results" MODIFIED="1531749969196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ArgsAndKwargs" />
+    <SUITE FILE_PATH="coverage/PythonCourse$dict_unpacking.coverage" NAME="dict_unpacking Coverage Results" MODIFIED="1526377292798" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Dictionaries" />
   </component>
-  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
-    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="example" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1008949228">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.10" value="2" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FavoritesManager">
     <favorites_list name="PythonCourse" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="datecalc.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/datacalc/datecalc.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/challenge_explained.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="598">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
-              <folding>
-                <element signature="e#247#258#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="2599">
+              <caret line="113" selection-start-line="113" selection-end-line="113" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="inherit.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Inheritance/inherit.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lists/list.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="115">
-              <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="classes.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Inheritance/classes.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ArgsAndKwargs/argsAndKwargs.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+            <state relative-caret-position="621">
+              <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="challenge.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Inheritance/challenge.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/databases/database.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="except.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exceptions/except.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="challenge.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exceptions/challenge.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="module.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/module.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="challenge.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/modules/challenge.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="568">
-              <caret line="94" column="42" lean-forward="true" selection-start-line="94" selection-start-column="42" selection-end-line="94" selection-end-column="42" />
+            <state relative-caret-position="736">
+              <caret line="32" column="42" lean-forward="true" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -258,74 +127,22 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <dirStrings>
-      <dir>C:\Users\mkucman\workspaces\robot-ric\SSHLibrary-master</dir>
-    </dirStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="PUSH_TAGS">
-      <GitPushTagMode />
-    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Sets/substraction.py" />
-        <option value="$PROJECT_DIR$/Sets/symmetrical_subtraction.py" />
-        <option value="$PROJECT_DIR$/Sets/symmetrical_difference_update.py" />
-        <option value="$PROJECT_DIR$/Sets/sets_challenge.py" />
-        <option value="$PROJECT_DIR$/FileIO/fileio.py" />
-        <option value="$USER_HOME$/workspaces/robot-ric/robot-ric/Tests/PcApp/PcApp.robot" />
-        <option value="$USER_HOME$/workspaces/robot-ric/robot-ric/Resources/pages/navigator/base_page.py" />
-        <option value="$USER_HOME$/workspaces/robot-ric/robot-ric/Resources/AuroraPagesLibrary.py" />
-        <option value="$USER_HOME$/workspaces/robot-ric/robot-ric/Resources/rest keywords.robot" />
-        <option value="$USER_HOME$/workspaces/robot-ric/robot-ric/Tests/Navigator/common_keywords.robot" />
-        <option value="$USER_HOME$/workspaces/robot-ric/robot-ric/Resources/AuroraRESTLibrary.py" />
-        <option value="$USER_HOME$/workspaces/robot-ric/robot-ric/Tests/rest api.robot" />
-        <option value="$PROJECT_DIR$/python.iml" />
-        <option value="$USER_HOME$/workspaces/robot-ric/robot-ric/Resources/rest_keywords.robot" />
-        <option value="$USER_HOME$/workspaces/robot-ric/robot-ric/Tests/rest_api.robot" />
-        <option value="$USER_HOME$/workspaces/robot-ric/robot-ric/Resources/environments/qa1_environment.robot" />
-        <option value="$USER_HOME$/workspaces/robot-ric/robot-ric/Resources/game_master_keywords.robot" />
-        <option value="$USER_HOME$/workspaces/robot-ric/robot-ric/Tests/m_startover.robot" />
-        <option value="$USER_HOME$/workspaces/robot-ric/robot-ric/Tests/m_tests.robot" />
-        <option value="$USER_HOME$/workspaces/robot-ric/robot-ric/Resources/utils.py" />
-        <option value="$USER_HOME$/workspaces/robot-ric/robot-ric/Resources/ssh_commands.robot" />
-        <option value="$PROJECT_DIR$/Dictionaries/dictionary_comprehension.py" />
-        <option value="$PROJECT_DIR$/Dictionaries/challenge3.py" />
-        <option value="$PROJECT_DIR$/Dictionaries/dict_unpacking.py" />
-        <option value="$PROJECT_DIR$/any_all/any.py" />
-        <option value="$PROJECT_DIR$/zip/zip.py" />
-        <option value="$PROJECT_DIR$/shelve/shelve.py" />
-        <option value="$PROJECT_DIR$/shelvePractice/shelve.py" />
-        <option value="$PROJECT_DIR$/shelvePractice/shelveExcercise.py" />
-        <option value="$PROJECT_DIR$/tutlePractice/turtleExcercise.py" />
-        <option value="$PROJECT_DIR$/datacalc/datecalc.py" />
-        <option value="$PROJECT_DIR$/Inheritance/inherit.py" />
-        <option value="$PROJECT_DIR$/Inheritance/classes.py" />
-        <option value="$PROJECT_DIR$/Inheritance/challenge.py" />
-        <option value="$PROJECT_DIR$/exceptions/except.py" />
-        <option value="$PROJECT_DIR$/exceptions/challenge.py" />
-        <option value="$PROJECT_DIR$/modules/module.py" />
-        <option value="$PROJECT_DIR$/modules/challenge.py" />
+        <option value="$PROJECT_DIR$/OOP/object_oriented_programming.py" />
+        <option value="$PROJECT_DIR$/databases/database.py" />
       </list>
     </option>
-  </component>
-  <component name="InvalidFacetManager">
-    <ignored-facets>
-      <facet id="python/invalid/Python" />
-    </ignored-facets>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
@@ -342,6 +159,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -352,19 +170,20 @@
             <path>
               <item name="PythonCourse" type="b2602c69:ProjectViewProjectNode" />
               <item name="PythonCourse" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="databases" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="Sqlite (Xerial)" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/workspaces/robot-plt/robot-plt" />
+    <property name="settings.editor.selected.configurable" value="SQL Dialects" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -378,116 +197,59 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.challenge (2)">
-    <configuration name="challenge (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python" />
+  <component name="RunManager" selected="Python.database">
+    <configuration name="database" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PythonCourse" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exceptions" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/databases" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exceptions/challenge.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/databases/database.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
-    <configuration name="challenge (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python" />
+    <configuration name="object_oriented_programming" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PythonCourse" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/modules" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OOP" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/modules/challenge.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OOP/object_oriented_programming.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="challenge" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Inheritance" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Inheritance/challenge.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="except" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exceptions" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exceptions/except.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="module" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/modules" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/modules/module.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.challenge" />
-      <item itemvalue="Python.except" />
-      <item itemvalue="Python.challenge (1)" />
-      <item itemvalue="Python.module" />
-      <item itemvalue="Python.challenge (2)" />
+      <item itemvalue="Python.object_oriented_programming" />
+      <item itemvalue="Python.database" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.challenge (2)" />
-        <item itemvalue="Python.module" />
-        <item itemvalue="Python.challenge (1)" />
-        <item itemvalue="Python.except" />
-        <item itemvalue="Python.challenge" />
+        <item itemvalue="Python.database" />
+        <item itemvalue="Python.object_oriented_programming" />
       </list>
     </recent_temporary>
   </component>
@@ -496,7 +258,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="060e2543-9312-46b6-b493-753c5f35a29e" name="Default" comment="" />
+      <changelist id="35a8eb8e-0e22-4f3c-9474-a08bb27e598a" name="Default" comment="" />
       <created>1519894565203</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -551,43 +313,105 @@
       <option name="project" value="LOCAL" />
       <updated>1531233749133</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added blackjack challenge">
+      <created>1531475671692</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1531475671692</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Added">
+      <created>1531489321793</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1531489321793</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Added">
+      <created>1531752506972</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1531752506972</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Added">
+      <created>1531835133180</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1531835133180</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Added">
+      <created>1531839895720</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1531839895720</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Added challenge summer_69">
+      <created>1531899252078</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1531899252078</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Added">
+      <created>1531899884252</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1531899884252</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Added">
+      <created>1531904354031</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1531904354031</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Added OOP module">
+      <created>1532092054292</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1532092054292</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Added database module">
+      <created>1532333996655</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1532333996655</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32890365" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50159913" side_tool="true" weight="0.32890365" />
-      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32890365" />
-      <window_info anchor="bottom" id="Python Console" order="8" weight="0.32890365" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49840087" visible="true" weight="0.21598272" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4978678" weight="0.32225913" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4994463" visible="true" weight="0.15677084" />
-      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="SciView" order="3" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4994463" visible="true" weight="0.16151386" />
       <window_info id="Structure" order="1" sideWeight="0.5005537" side_tool="true" weight="0.31130064" />
       <window_info id="Favorites" order="2" sideWeight="0.5005537" side_tool="true" weight="0.31130064" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39977852" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32937366" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840087" weight="0.21598272" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39956802" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32890365" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32829374" />
+      <window_info anchor="bottom" id="Python Console" order="8" weight="0.32890365" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4978678" weight="0.32181427" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50159913" side_tool="true" weight="0.32890365" />
+      <window_info anchor="bottom" id="YouTrack" order="13" visible="true" weight="0.1583514" />
+      <window_info anchor="bottom" id="Database Console" order="14" weight="0.32937366" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.12526652" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -601,121 +425,14 @@
     <MESSAGE value="Added inheritance module." />
     <MESSAGE value="Added classes file." />
     <MESSAGE value="Added exceptions and inheritance files." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added exceptions and inheritance files." />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="8" />
-    </breakpoint-manager>
+    <MESSAGE value="Added blackjack challenge" />
+    <MESSAGE value="Added challenge summer_69" />
+    <MESSAGE value="Added" />
+    <MESSAGE value="Added OOP module" />
+    <MESSAGE value="Added database module" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added database module" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/workspaces/robot-ric/robot-ric/resources/environment.robot">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/workspaces/robot-ric/robot-ric/resources/pages/navigator/base_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2231">
-          <caret line="107" column="40" lean-forward="true" selection-start-line="107" selection-start-column="40" selection-end-line="107" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/workspaces/robot-ric/robot-ric/resources/pages.robot">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/workspaces/robot-ric/robot-ric/tests/Navigator/common_keywords.robot">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/workspaces/robot-ric/robot-ric/tests/PcApp/PcApp.robot">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FileIO/fileio.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/workspaces/robot-ric/robot-ric/Resources/operations_keywords.robot" />
-    <entry file="file://$PROJECT_DIR$/FileIO/writing_imelda.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/workspaces/robot-ric/robot-ric/resources/game_master_keywords.robot">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/workspaces/robot-ric/SSHLibrary-master/build/lib/SSHLibrary/library.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="599" column="8" selection-start-line="599" selection-start-column="8" selection-end-line="599" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/workspaces/robot-ric/robot-ric/resources/acct_keywords.robot">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/workspaces/robot-ric/robot-ric/resources/AuroraPagesLibrary.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6072">
-          <caret line="280" column="37" selection-start-line="280" selection-start-column="37" selection-end-line="280" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/workspaces/robot-ric/robot-ric/tests/m_tests.robot" />
-    <entry file="file://$USER_HOME$/workspaces/robot-ric/robot-py/src/testamp.robot/src/testamp/robot/restapi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4646">
-          <caret line="205" column="8" selection-start-line="205" selection-start-column="8" selection-end-line="205" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/workspaces/robot-ric/robot-ric/resources/este_keywords.robot">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/workspaces/robot-ric/robot-ric/tests/rest_api.robot">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/workspaces/robot-ric/robot-ric/resources/rest_keywords.robot">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="523">
@@ -862,9 +579,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="598">
           <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="e#247#258#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -912,8 +626,107 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/challenge.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="568">
-          <caret line="94" column="42" lean-forward="true" selection-start-line="94" selection-start-column="42" selection-end-line="94" selection-end-column="42" />
+        <state relative-caret-position="1610">
+          <caret line="70" column="54" selection-start-line="70" selection-start-column="54" selection-end-line="70" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/milestone/milestoneOne.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="736">
+          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/-138210731/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="526" column="4" selection-start-line="526" selection-start-column="4" selection-end-line="526" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="64" lean-forward="true" selection-start-line="12" selection-start-column="64" selection-end-line="12" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/modules.xml" />
+    <entry file="file://$PROJECT_DIR$/databases/example" />
+    <entry file="file://$PROJECT_DIR$/databases/example.db">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="66" selection-start-line="2" selection-start-column="66" selection-end-line="2" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/85fe0565-5964-480b-8b2a-e9b49f024478/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://85fe0565-5964-480b-8b2a-e9b49f024478/schema/main/table/sqlite_master">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/718c5cff-6edb-444d-bfc3-9cc0dd9e6343/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OOP/object_oriented_programming.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Functions/excercises.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="614">
+          <caret line="103" column="28" selection-start-line="103" selection-start-column="28" selection-end-line="103" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ArgsAndKwargs/excercise.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://85fe0565-5964-480b-8b2a-e9b49f024478/schema/main/table/stocks">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/challenge_explained.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2599">
+          <caret line="113" selection-start-line="113" selection-end-line="113" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lists/list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ArgsAndKwargs/argsAndKwargs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/databases/database.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="736">
+          <caret line="32" column="42" lean-forward="true" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
         </state>
       </provider>
     </entry>
