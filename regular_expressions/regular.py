@@ -15,3 +15,17 @@ for pattern in patterns:
     else:
         print('\n')
         print("No Match was found. \n")
+
+string = [{u'url': u'www.google.com', u'browser': u'ie'}, {u'url': u'www.facebook.com', u'browser': u'ie'}]
+
+string_formatted = ''
+
+for element in string:
+    string_formatted += str(element.values())
+    string_formatted = string_formatted.strip('()[]''',)
+
+        # for k, v in dict:
+        #     string_formatted += k
+        #     string_formatted += v
+
+print(string_formatted)
