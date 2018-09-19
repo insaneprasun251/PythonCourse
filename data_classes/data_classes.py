@@ -20,3 +20,4 @@ print(norway)
 print(norway.name)
 print(norway.area)
 print(norway.beach_person())
+
