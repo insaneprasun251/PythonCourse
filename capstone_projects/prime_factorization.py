@@ -1,5 +1,5 @@
 # TODO: Prime Factorization
-from collections import Counter
+from collections_module import Counter
 
 
 def prime_factorization(num):
