@@ -7,3 +7,4 @@ elif age < 18:
     print("You are too young to enjoy free holiday!")
 else:
     print("You are too old for free holiday!")
+
