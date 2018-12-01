@@ -10,7 +10,11 @@ class Country:
     coastline: float = 0
 
     def beach_person(self):
-        """Meters of coastline per person"""
+        """
+        Meters of coastline per person
+        :return: Returns meters of coastline per person
+        """
+
         return (self.coastline * 1000) / self.population
 
 
