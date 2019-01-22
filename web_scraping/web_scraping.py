@@ -22,3 +22,6 @@ for element in link_section.next_elements:
 
 print(section)
 print(page.find_all(re.compile('^h(2|3)')))
+
+
+
