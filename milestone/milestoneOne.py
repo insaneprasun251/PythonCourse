@@ -1,14 +1,17 @@
 from random import randint
 
+
 def display_board(board):
     # if '#' in board:
-        print(" " + board[1] + " " + "|" + " " + board[2] + " " + "|" + " " + board[3] + " ")
-        print(" " + board[4] + " " + "|" + " " + board[5] + " " + "|" + " " + board[6] + " ")
-        print(" " + board[7] + " " + "|" + " " + board[8] + " " + "|" + " " + board[9] + " ")
+    print(" " + board[1] + " " + "|" + " " + board[2] + " " + "|" + " " + board[3] + " ")
+    print(" " + board[4] + " " + "|" + " " + board[5] + " " + "|" + " " + board[6] + " ")
+    print(" " + board[7] + " " + "|" + " " + board[8] + " " + "|" + " " + board[9] + " ")
 
 
 test_board = ['#', 'X', 'O', 'X', 'O', 'X', 'O', 'X', 'O', 'X']
-starting_board = [' ']*10
+starting_board = [' '] * 10
+
+
 # display_board(test_board)
 # display_board(starting_board)
 # starting_board[5] = 'X'
@@ -36,13 +39,13 @@ def place_marker(board, marker, position):
 def win_check(board, mark):
     # ROWS, COLUMNS and DIAGONAL checks
     return ((board[7] == board[8] == board[9] == mark) or
-    (board[4] == board[5] == board[6] == mark) or
-    (board[1] == board[2] == board[3] == mark) or
-    (board[1] == board[4] == board[7] == mark) or
-    (board[2] == board[5] == board[8] == mark) or
-    (board[3] == board[6] == board[9] == mark) or
-    (board[1] == board[5] == board[9] == mark) or
-    (board[3] == board[5] == board[7] == mark))
+            (board[4] == board[5] == board[6] == mark) or
+            (board[1] == board[2] == board[3] == mark) or
+            (board[1] == board[4] == board[7] == mark) or
+            (board[2] == board[5] == board[8] == mark) or
+            (board[3] == board[6] == board[9] == mark) or
+            (board[1] == board[5] == board[9] == mark) or
+            (board[3] == board[5] == board[7] == mark))
 
 
 def choose_first():
@@ -68,7 +71,7 @@ def full_board_check(board):
 def player_choice(board):
     position = 0
     while position not in [1, 2, 3, 4, 5, 6, 7, 8, 9] or not space_check(board, position):
-        position = int(input("Please choose a position: (1-9)" ))
+        position = int(input("Please choose a position: (1-9)"))
 
     return position
 
@@ -82,7 +85,7 @@ print("Welcome to TIC TAC TOE")
 
 while True:
     # Play the game
-    the_board = [' ']*10
+    the_board = [' '] * 10
     player1_marker, player2_marker = player_input()
     turn = choose_first()
     print(turn + " will go first")
@@ -141,4 +144,3 @@ while True:
 
     if not replay():
         break
-
