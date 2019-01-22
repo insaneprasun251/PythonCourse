@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping pattern="36_file" type="PLAIN_TEXT" />
+      <mapping pattern="yaml.java" type="YAML" />
     </extensionMap>
   </component>
 </application>
