@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35a8eb8e-0e22-4f3c-9474-a08bb27e598a" name="Default" comment="Added web_scraping">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/robot_framework/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/robot_framework/test1.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rss_feed/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rss_feed/rss_feeds.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,6 +24,7 @@
     <SUITE FILE_PATH="coverage/PythonPlayground$crawling_web_step1.coverage" NAME="crawling_web_step1 Coverage Results" MODIFIED="1548237272352" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web_scraping" />
     <SUITE FILE_PATH="coverage/PythonCourse$namedtuple.coverage" NAME="namedtuple Coverage Results" MODIFIED="1537731661238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/collections" />
     <SUITE FILE_PATH="coverage/PythonCourse$challenge.coverage" NAME="challenge Coverage Results" MODIFIED="1531222024512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Inheritance" />
+    <SUITE FILE_PATH="coverage/PythonPlayground$rss_feeds.coverage" NAME="rss_feeds Coverage Results" MODIFIED="1548238683171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rss_feed" />
     <SUITE FILE_PATH="coverage/PythonCourse$challenge3.coverage" NAME="challenge3 Coverage Results" MODIFIED="1526046862240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Dictionaries" />
     <SUITE FILE_PATH="coverage/PythonPlayground$simple_delay_server.coverage" NAME="simple_delay_server Coverage Results" MODIFIED="1548237262982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web_scraping/test_site" />
     <SUITE FILE_PATH="coverage/PythonCourse$challenge__1_.coverage" NAME="challenge (1) Coverage Results" MODIFIED="1531233708275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exceptions" />
@@ -76,19 +80,7 @@
         <entry file="file://$PROJECT_DIR$/web_scraping/web_scraping.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="358">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web_scraping/crawling_web_step1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -97,10 +89,43 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web_scraping/crawling_web_step1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="376">
+              <caret line="79" selection-start-line="79" selection-end-line="79" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rss_feed/rss_feeds.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="e#0#17#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/robot_framework/test1.robot">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web_scraping/test_site/simple_delay_server.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="479">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -114,6 +139,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="Robot Test Suite" />
       </list>
     </option>
   </component>
@@ -135,6 +161,8 @@
         <option value="$PROJECT_DIR$/collections_module/namedtuple_excercise.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/web_scraping/test_site/simple_delay_server.py" />
+        <option value="$PROJECT_DIR$/rss_feed/rss_feeds.py" />
+        <option value="$PROJECT_DIR$/robot_framework/test1.robot" />
       </list>
     </option>
   </component>
@@ -169,13 +197,12 @@
             <path>
               <item name="PythonPlayground" type="b2602c69:ProjectViewProjectNode" />
               <item name="PythonPlayground" type="462c0819:PsiDirectoryNode" />
-              <item name="web_scraping" type="462c0819:PsiDirectoryNode" />
+              <item name="robot_framework" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PythonPlayground" type="b2602c69:ProjectViewProjectNode" />
               <item name="PythonPlayground" type="462c0819:PsiDirectoryNode" />
-              <item name="web_scraping" type="462c0819:PsiDirectoryNode" />
-              <item name="test_site" type="462c0819:PsiDirectoryNode" />
+              <item name="rss_feed" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PythonPlayground" type="b2602c69:ProjectViewProjectNode" />
@@ -192,8 +219,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="Sqlite (Xerial)" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/playground-py/Scripts/robot.exe" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -207,7 +234,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.crawling_web_step1">
+  <component name="RunManager" selected="Python.rss_feeds">
     <configuration name="crawling_web_step1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonPlayground" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -274,6 +301,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="rss_feeds" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PythonPlayground" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/rss_feed" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rss_feed/rss_feeds.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="simple_delay_server" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonPlayground" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -296,42 +345,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="turtle_game" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PythonCourse" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/turtle_game" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/turtle_game/turtle_game.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Python.flask_api" />
-      <item itemvalue="Python.turtle_game" />
       <item itemvalue="Python.namedtuple" />
       <item itemvalue="Python.crawling_web_step1" />
       <item itemvalue="Python.simple_delay_server" />
+      <item itemvalue="Python.rss_feeds" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.rss_feeds" />
         <item itemvalue="Python.crawling_web_step1" />
         <item itemvalue="Python.simple_delay_server" />
         <item itemvalue="Python.namedtuple" />
         <item itemvalue="Python.flask_api" />
-        <item itemvalue="Python.turtle_game" />
       </list>
     </recent_temporary>
   </component>
@@ -346,7 +373,7 @@
       <option name="presentableId" value="Default" />
       <updated>1519894565203</updated>
       <workItem from="1548173532694" duration="358000" />
-      <workItem from="1548173920135" duration="2384000" />
+      <workItem from="1548173920135" duration="5463000" />
     </task>
     <task id="LOCAL-00001" summary="Sets challenge added">
       <created>1519894728400</created>
@@ -488,11 +515,18 @@
       <option name="project" value="LOCAL" />
       <updated>1548174352108</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Added web_scraping">
+      <created>1548238178288</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1548238178288</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2742000" />
+    <option name="totallyTimeSpent" value="5821000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -501,18 +535,18 @@
       <window_info id="Structure" order="1" sideWeight="0.5005537" side_tool="true" weight="0.31130064" />
       <window_info id="Favorites" order="2" sideWeight="0.5005537" side_tool="true" weight="0.31130064" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32929516" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4968017" weight="0.21516165" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32887402" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4968017" weight="0.37012264" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39956802" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32890365" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49946696" weight="0.3277592" />
       <window_info anchor="bottom" id="Python Console" order="8" sideWeight="0.49946696" weight="0.32887402" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49573562" visible="true" weight="0.32107022" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49573562" weight="0.32107022" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="11" sideWeight="0.4989339" weight="0.32998884" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5042644" side_tool="true" visible="true" weight="0.32107022" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5042644" side_tool="true" weight="0.32107022" />
       <window_info anchor="bottom" id="YouTrack" order="13" weight="0.15748899" />
       <window_info anchor="bottom" id="Database Console" order="14" weight="0.32937366" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -539,17 +573,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Added web_scraping" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/shelve.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="229" column="8" selection-start-line="229" selection-start-column="4" selection-end-line="229" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shelvePractice/shelve.py" />
-    <entry file="file://$PROJECT_DIR$/zip/zip.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/shelvePractice/ShelfTest.bak">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -753,7 +776,7 @@
     <entry file="file://$PROJECT_DIR$/web_scraping/web_scraping.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="358">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -763,7 +786,7 @@
     <entry file="file://$PROJECT_DIR$/web_scraping/test_site/simple_delay_server.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="479">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
@@ -772,11 +795,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web_scraping/crawling_web_step1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
+        <state relative-caret-position="376">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rss_feed/rss_feeds.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robot_framework/log.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robot_framework/test1.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
