@@ -10,7 +10,7 @@ except ImportError:  # python 2
 
 mainWindow = tkinter.Tk()
 mainWindow.title("Hello from the other side")
-mainWindow.geometry("640x480+8+400")
+mainWindow.geometry("640x480+8+400")  # 8 pixels right from the left and 400 pixels down from the top
 
 label = tkinter.Label(mainWindow, text="Hello World")
 label.pack(side='top')

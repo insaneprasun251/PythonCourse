@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="35a8eb8e-0e22-4f3c-9474-a08bb27e598a" name="Default" comment="Added">
-      <change afterPath="$PROJECT_DIR$/flask_api_challenge/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flask_api_challenge/flask_api.py" afterDir="false" />
+    <list default="true" id="35a8eb8e-0e22-4f3c-9474-a08bb27e598a" name="Default" comment="Django_app">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/capstone_projects/prime_factorization.py" beforeDir="false" afterPath="$PROJECT_DIR$/capstone_projects/prime_factorization.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/collections/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_api_challenge/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/collections/counter.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collections/defaultdict.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collections/namedtuple.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutlePractice/turtleExcercise.py" beforeDir="false" afterPath="$PROJECT_DIR$/tutlePractice/turtleExcercise.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tkinter_demo/tkinterdemo.py" beforeDir="false" afterPath="$PROJECT_DIR$/tkinter_demo/tkinterdemo.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,39 +12,43 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/PythonCourse$namedtuple.coverage" NAME="namedtuple Coverage Results" MODIFIED="1537731661238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/collections" />
-    <SUITE FILE_PATH="coverage/PythonCourse$excercises.coverage" NAME="excercises Coverage Results" MODIFIED="1531900750857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Functions" />
-    <SUITE FILE_PATH="coverage/PythonCourse$database.coverage" NAME="database Coverage Results" MODIFIED="1532329009782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/databases" />
-    <SUITE FILE_PATH="coverage/PythonCourse$classes.coverage" NAME="classes Coverage Results" MODIFIED="1531214989722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Inheritance" />
-    <SUITE FILE_PATH="coverage/PythonCourse$substraction.coverage" NAME="substraction Coverage Results" MODIFIED="1519918670762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sets" />
-    <SUITE FILE_PATH="coverage/PythonCourse$shelve.coverage" NAME="shelve Coverage Results" MODIFIED="1528883997359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/shelve" />
-    <SUITE FILE_PATH="coverage/PythonCourse$flask_api.coverage" NAME="flask_api Coverage Results" MODIFIED="1537694619992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/flask_api_challenge" />
-    <SUITE FILE_PATH="coverage/PythonCourse$dict_unpacking.coverage" NAME="dict_unpacking Coverage Results" MODIFIED="1526377292798" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Dictionaries" />
     <SUITE FILE_PATH="coverage/PythonCourse$challenge__2_.coverage" NAME="challenge (2) Coverage Results" MODIFIED="1531475706039" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules" />
-    <SUITE FILE_PATH="coverage/PythonCourse$object_oriented_programming.coverage" NAME="object_oriented_programming Coverage Results" MODIFIED="1532089931262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP" />
-    <SUITE FILE_PATH="coverage/PythonCourse$challenge_explained.coverage" NAME="challenge_explained Coverage Results" MODIFIED="1531487374572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules" />
-    <SUITE FILE_PATH="coverage/PythonCourse$any.coverage" NAME="any Coverage Results" MODIFIED="1526631547702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/any_all" />
-    <SUITE FILE_PATH="coverage/PythonCourse$turtleExcercise.coverage" NAME="turtleExcercise Coverage Results" MODIFIED="1528967743541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tutlePractice" />
+    <SUITE FILE_PATH="coverage/PythonCourse$turtle_game.coverage" NAME="turtle_game Coverage Results" MODIFIED="1537691201048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/turtle_game" />
     <SUITE FILE_PATH="coverage/PythonCourse$sets_challenge.coverage" NAME="sets_challenge Coverage Results" MODIFIED="1520004139779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sets" />
+    <SUITE FILE_PATH="coverage/PythonCourse$shelve.coverage" NAME="shelve Coverage Results" MODIFIED="1528883997359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/shelve" />
+    <SUITE FILE_PATH="coverage/PythonCourse$object_oriented_programming.coverage" NAME="object_oriented_programming Coverage Results" MODIFIED="1532089931262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP" />
+    <SUITE FILE_PATH="coverage/PythonCourse$excercise.coverage" NAME="excercise Coverage Results" MODIFIED="1531750722209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ArgsAndKwargs" />
+    <SUITE FILE_PATH="coverage/PythonPlayground$crawling_web_step1.coverage" NAME="crawling_web_step1 Coverage Results" MODIFIED="1548237272352" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web_scraping" />
+    <SUITE FILE_PATH="coverage/PythonCourse$namedtuple.coverage" NAME="namedtuple Coverage Results" MODIFIED="1537731661238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/collections" />
+    <SUITE FILE_PATH="coverage/PythonCourse$challenge.coverage" NAME="challenge Coverage Results" MODIFIED="1531222024512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Inheritance" />
+    <SUITE FILE_PATH="coverage/PythonPlayground$rss_feeds.coverage" NAME="rss_feeds Coverage Results" MODIFIED="1548238683171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rss_feed" />
+    <SUITE FILE_PATH="coverage/PythonCourse$challenge3.coverage" NAME="challenge3 Coverage Results" MODIFIED="1526046862240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Dictionaries" />
+    <SUITE FILE_PATH="coverage/PythonPlayground$simple_delay_server.coverage" NAME="simple_delay_server Coverage Results" MODIFIED="1548237262982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web_scraping/test_site" />
+    <SUITE FILE_PATH="coverage/PythonCourse$challenge__1_.coverage" NAME="challenge (1) Coverage Results" MODIFIED="1531233708275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exceptions" />
+    <SUITE FILE_PATH="coverage/PythonCourse$dictionary_comprehension.coverage" NAME="dictionary_comprehension Coverage Results" MODIFIED="1525878317452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Dictionaries" />
+    <SUITE FILE_PATH="coverage/PythonCourse$database.coverage" NAME="database Coverage Results" MODIFIED="1532329009782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/databases" />
+    <SUITE FILE_PATH="coverage/PythonCourse$any.coverage" NAME="any Coverage Results" MODIFIED="1526631547702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/any_all" />
     <SUITE FILE_PATH="coverage/PythonCourse$argsAndKwargs.coverage" NAME="argsAndKwargs Coverage Results" MODIFIED="1531749969196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ArgsAndKwargs" />
-    <SUITE FILE_PATH="coverage/PythonCourse$list.coverage" NAME="list Coverage Results" MODIFIED="1531746845606" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lists" />
+    <SUITE FILE_PATH="coverage/PythonCourse$shelveExcercise.coverage" NAME="shelveExcercise Coverage Results" MODIFIED="1528899376633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/shelvePractice" />
+    <SUITE FILE_PATH="coverage/PythonCourse$inherit.coverage" NAME="inherit Coverage Results" MODIFIED="1531213742147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Inheritance" />
+    <SUITE FILE_PATH="coverage/PythonCourse$except.coverage" NAME="except Coverage Results" MODIFIED="1531232675067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exceptions" />
     <SUITE FILE_PATH="coverage/PythonCourse$symmetrical_subtraction.coverage" NAME="symmetrical_subtraction Coverage Results" MODIFIED="1519918876268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sets" />
+    <SUITE FILE_PATH="coverage/PythonCourse$list.coverage" NAME="list Coverage Results" MODIFIED="1531746845606" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lists" />
+    <SUITE FILE_PATH="coverage/PythonCourse$symmetrical_difference_update.coverage" NAME="symmetrical_difference_update Coverage Results" MODIFIED="1520002922909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sets" />
+    <SUITE FILE_PATH="coverage/PythonCourse$excercises.coverage" NAME="excercises Coverage Results" MODIFIED="1531900750857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Functions" />
     <SUITE FILE_PATH="coverage/PythonCourse$shelve__1_.coverage" NAME="shelve (1) Coverage Results" MODIFIED="1528888372443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/shelvePractice" />
+    <SUITE FILE_PATH="coverage/PythonPlayground$tkinterdemo.coverage" NAME="tkinterdemo Coverage Results" MODIFIED="1548409898825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tkinter_demo" />
+    <SUITE FILE_PATH="coverage/PythonCourse$dict_unpacking.coverage" NAME="dict_unpacking Coverage Results" MODIFIED="1526377292798" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Dictionaries" />
+    <SUITE FILE_PATH="coverage/PythonCourse$substraction.coverage" NAME="substraction Coverage Results" MODIFIED="1519918670762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sets" />
+    <SUITE FILE_PATH="coverage/PythonCourse$turtleExcercise.coverage" NAME="turtleExcercise Coverage Results" MODIFIED="1528967743541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tutlePractice" />
+    <SUITE FILE_PATH="coverage/PythonCourse$classes.coverage" NAME="classes Coverage Results" MODIFIED="1531214989722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Inheritance" />
+    <SUITE FILE_PATH="coverage/PythonCourse$fileio.coverage" NAME="fileio Coverage Results" MODIFIED="1520005872956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FileIO" />
+    <SUITE FILE_PATH="coverage/PythonCourse$flask_api.coverage" NAME="flask_api Coverage Results" MODIFIED="1537694619992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/flask_api_challenge" />
+    <SUITE FILE_PATH="coverage/PythonCourse$challenge_explained.coverage" NAME="challenge_explained Coverage Results" MODIFIED="1531487374572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules" />
     <SUITE FILE_PATH="coverage/PythonCourse$module.coverage" NAME="module Coverage Results" MODIFIED="1531315865833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules" />
     <SUITE FILE_PATH="coverage/PythonCourse$tuples.coverage" NAME="tuples Coverage Results" MODIFIED="1526025688686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tuples" />
-    <SUITE FILE_PATH="coverage/PythonCourse$symmetrical_difference_update.coverage" NAME="symmetrical_difference_update Coverage Results" MODIFIED="1520002922909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sets" />
-    <SUITE FILE_PATH="coverage/PythonCourse$turtle_game.coverage" NAME="turtle_game Coverage Results" MODIFIED="1537691201048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/turtle_game" />
     <SUITE FILE_PATH="coverage/PythonCourse$milestoneOne.coverage" NAME="milestoneOne Coverage Results" MODIFIED="1531725212189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/milestone" />
-    <SUITE FILE_PATH="coverage/PythonCourse$shelveExcercise.coverage" NAME="shelveExcercise Coverage Results" MODIFIED="1528899376633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/shelvePractice" />
-    <SUITE FILE_PATH="coverage/PythonCourse$except.coverage" NAME="except Coverage Results" MODIFIED="1531232675067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exceptions" />
-    <SUITE FILE_PATH="coverage/PythonCourse$dictionary_comprehension.coverage" NAME="dictionary_comprehension Coverage Results" MODIFIED="1525878317452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Dictionaries" />
-    <SUITE FILE_PATH="coverage/PythonCourse$fileio.coverage" NAME="fileio Coverage Results" MODIFIED="1520005872956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FileIO" />
-    <SUITE FILE_PATH="coverage/PythonCourse$challenge.coverage" NAME="challenge Coverage Results" MODIFIED="1531222024512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Inheritance" />
-    <SUITE FILE_PATH="coverage/PythonCourse$inherit.coverage" NAME="inherit Coverage Results" MODIFIED="1531213742147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Inheritance" />
-    <SUITE FILE_PATH="coverage/PythonCourse$excercise.coverage" NAME="excercise Coverage Results" MODIFIED="1531750722209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ArgsAndKwargs" />
     <SUITE FILE_PATH="coverage/PythonCourse$datecalc.coverage" NAME="datecalc Coverage Results" MODIFIED="1529072684502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/datacalc" />
-    <SUITE FILE_PATH="coverage/PythonCourse$challenge__1_.coverage" NAME="challenge (1) Coverage Results" MODIFIED="1531233708275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exceptions" />
-    <SUITE FILE_PATH="coverage/PythonCourse$challenge3.coverage" NAME="challenge3 Coverage Results" MODIFIED="1526046862240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Dictionaries" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -72,84 +69,25 @@
     </expand>
     <select />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-1008949228">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.10" value="2" />
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="3" />
-        </counts>
-      </usages-collector>
-    </session>
-    <session id="177410244">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.13" value="1" />
-          <entry key="project.open.time.14" value="1" />
-          <entry key="project.opened" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="py" value="7" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="Python" value="7" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="dummy" value="14" />
-          <entry key="py" value="1216" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="PLAIN_TEXT" value="14" />
-          <entry key="Python" value="1216" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FavoritesManager">
     <favorites_list name="PythonCourse" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/flask_api_challenge/flask_api.py">
+        <entry file="file://$PROJECT_DIR$/django/django_project/manage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="508">
-              <caret line="83" selection-start-line="83" selection-end-line="83" />
-              <folding>
-                <element signature="e#0#23#0" expanded="true" />
-                <marker date="1537555189387" expanded="true" signature="448:453" ph="..." />
-                <marker date="1537555189387" expanded="true" signature="611:635" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/functools.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+            <state relative-caret-position="322">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/collections_module/namedtuple_excercise.py">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+            <state relative-caret-position="292">
+              <caret line="70" column="10" lean-forward="true" selection-start-line="70" selection-start-column="10" selection-end-line="70" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -159,6 +97,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Robot Test Suite" />
         <option value="Python Script" />
       </list>
     </option>
@@ -179,14 +118,16 @@
         <option value="$PROJECT_DIR$/collections/namedtuple.py" />
         <option value="$PROJECT_DIR$/collections/namedtuple_excercise.py" />
         <option value="$PROJECT_DIR$/collections_module/namedtuple_excercise.py" />
+        <option value="$PROJECT_DIR$/web_scraping/test_site/simple_delay_server.py" />
+        <option value="$PROJECT_DIR$/rss_feed/rss_feeds.py" />
+        <option value="$PROJECT_DIR$/robot_framework/test1.robot" />
+        <option value="$PROJECT_DIR$/locust_excercise/locust_excercise.py" />
+        <option value="$PROJECT_DIR$/locust_excercise/html_parsing.py" />
+        <option value="$PROJECT_DIR$/tkinter_demo/tkinterdemo.py" />
+        <option value="$PROJECT_DIR$/django/django_project/manage.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
@@ -203,36 +144,42 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="PythonCourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PythonCourse" type="462c0819:PsiDirectoryNode" />
+              <item name="PythonPlayground" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PythonPlayground" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="PythonCourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PythonCourse" type="462c0819:PsiDirectoryNode" />
-              <item name="collections_module" type="462c0819:PsiDirectoryNode" />
+              <item name="PythonPlayground" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PythonPlayground" type="462c0819:PsiDirectoryNode" />
+              <item name="django" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="PythonCourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PythonCourse" type="462c0819:PsiDirectoryNode" />
-              <item name="flask_api_challenge" type="462c0819:PsiDirectoryNode" />
+              <item name="PythonPlayground" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PythonPlayground" type="462c0819:PsiDirectoryNode" />
+              <item name="django" type="462c0819:PsiDirectoryNode" />
+              <item name="django_project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PythonPlayground" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PythonPlayground" type="462c0819:PsiDirectoryNode" />
+              <item name="WebBrowser" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="Sqlite (Xerial)" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/workspaces/robot-plt/robot-plt" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/playground-py/Scripts/robot.exe" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -246,43 +193,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.namedtuple">
-    <configuration name="database" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PythonCourse" />
+  <component name="RunManager" selected="Python.tkinterdemo">
+    <configuration name="crawling_web_step1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PythonPlayground" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/databases" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/web_scraping" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/databases/database.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="flask_api" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PythonCourse" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/flask_api_challenge" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/flask_api_challenge/flask_api.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/web_scraping/crawling_web_step1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -313,20 +238,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="object_oriented_programming" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PythonCourse" />
+    <configuration name="rss_feeds" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PythonPlayground" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OOP" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/rss_feed" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OOP/object_oriented_programming.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rss_feed/rss_feeds.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -335,20 +260,42 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="turtle_game" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PythonCourse" />
+    <configuration name="simple_delay_server" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PythonPlayground" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/turtle_game" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/web_scraping/test_site" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/turtle_game/turtle_game.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/web_scraping/test_site/simple_delay_server.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tkinterdemo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PythonPlayground" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tkinter_demo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tkinter_demo/tkinterdemo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -358,19 +305,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.object_oriented_programming" />
-      <item itemvalue="Python.database" />
-      <item itemvalue="Python.flask_api" />
-      <item itemvalue="Python.turtle_game" />
       <item itemvalue="Python.namedtuple" />
+      <item itemvalue="Python.crawling_web_step1" />
+      <item itemvalue="Python.simple_delay_server" />
+      <item itemvalue="Python.rss_feeds" />
+      <item itemvalue="Python.tkinterdemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.tkinterdemo" />
+        <item itemvalue="Python.rss_feeds" />
+        <item itemvalue="Python.crawling_web_step1" />
+        <item itemvalue="Python.simple_delay_server" />
         <item itemvalue="Python.namedtuple" />
-        <item itemvalue="Python.flask_api" />
-        <item itemvalue="Python.turtle_game" />
-        <item itemvalue="Python.database" />
-        <item itemvalue="Python.object_oriented_programming" />
       </list>
     </recent_temporary>
   </component>
@@ -384,6 +331,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1519894565203</updated>
+      <workItem from="1548173532694" duration="358000" />
+      <workItem from="1548173920135" duration="13575000" />
+      <workItem from="1548343851434" duration="6491000" />
     </task>
     <task id="LOCAL-00001" summary="Sets challenge added">
       <created>1519894728400</created>
@@ -504,43 +454,92 @@
       <option name="project" value="LOCAL" />
       <updated>1532333996655</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Added">
+      <created>1548174031146</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1548174031147</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Added">
+      <created>1548174166244</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1548174166244</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Added web_scraping">
+      <created>1548174352107</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1548174352108</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Added web_scraping">
+      <created>1548238178288</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1548238178288</updated>
+    </task>
+    <task id="LOCAL-00022" summary="RSS feeds and Robot Framework added">
+      <created>1548319427030</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1548319427030</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Added locust excercise">
+      <created>1548345099092</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1548345099093</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Django_app">
+      <created>1548666544211</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1548666544211</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="20424000" />
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="2576" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4994463" visible="true" weight="0.16494435" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4994463" visible="true" weight="0.17004265" />
       <window_info id="Structure" order="1" sideWeight="0.5005537" side_tool="true" weight="0.31130064" />
       <window_info id="Favorites" order="2" sideWeight="0.5005537" side_tool="true" weight="0.31130064" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32929516" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840087" weight="0.21585903" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32887402" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4968017" weight="0.37012264" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39956802" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32890365" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32819384" />
-      <window_info anchor="bottom" id="Python Console" order="8" weight="0.32890365" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4978678" weight="0.32181427" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49946696" weight="0.3277592" />
+      <window_info anchor="bottom" id="Python Console" order="8" sideWeight="0.49946696" weight="0.32887402" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49573562" visible="true" weight="0.32107022" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50159913" side_tool="true" weight="0.32890365" />
+      <window_info anchor="bottom" id="Database Changes" order="11" sideWeight="0.4989339" weight="0.32998884" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5042644" side_tool="true" weight="0.32107022" />
       <window_info anchor="bottom" id="YouTrack" order="13" weight="0.15748899" />
       <window_info anchor="bottom" id="Database Console" order="14" weight="0.32937366" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.12480127" />
+      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.12473348" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Sets challenge added" />
@@ -549,87 +548,16 @@
     <MESSAGE value="Added exceptions and inheritance files." />
     <MESSAGE value="Added blackjack challenge" />
     <MESSAGE value="Added challenge summer_69" />
-    <MESSAGE value="Added" />
     <MESSAGE value="Added OOP module" />
     <MESSAGE value="Added database module" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added database module" />
+    <MESSAGE value="Added" />
+    <MESSAGE value="Added web_scraping" />
+    <MESSAGE value="RSS feeds and Robot Framework added" />
+    <MESSAGE value="Added locust excercise" />
+    <MESSAGE value="Django_app" />
+    <option name="LAST_COMMIT_MESSAGE" value="Django_app" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/workspaces/robot-ric/robot-ric/tests/privilegeGroup.robot" />
-    <entry file="file://$USER_HOME$/workspaces/robot-ric/robot-ric/utilities/init_data/lines.robot" />
-    <entry file="file://$PROJECT_DIR$/../robot-ric/robot-ric/libs/REST_Navigator.py" />
-    <entry file="file://$PROJECT_DIR$/../robot-ric/robot-ric/tests/agency.robot" />
-    <entry file="file://$USER_HOME$/workspaces/robot-ric/robot-ric/tests/m_startover.robot" />
-    <entry file="file://$PROJECT_DIR$/Dictionaries/dictionary_comprehension.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/1711764733/builtins.py" />
-    <entry file="file://$PROJECT_DIR$/any_all/any.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dictionaries/dict_unpacking.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dictionaries/challenge3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tuples/tuples.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="49" column="62" selection-start-line="49" selection-start-column="62" selection-end-line="49" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shelvePractice/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/shelve.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="229" column="8" selection-start-line="229" selection-start-column="4" selection-end-line="229" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shelvePractice/shelve.py" />
-    <entry file="file://$PROJECT_DIR$/zip/zip.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shelvePractice/ShelfTest.bak">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shelvePractice/ShelfTest.dir">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shelvePractice/shelveExcercise.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="44" lean-forward="true" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tutlePractice/turtleExcercise.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/1711764733/time.py" />
     <entry file="file://$PROJECT_DIR$/datacalc/datecalc.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -704,13 +632,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/modules.xml" />
     <entry file="file://$PROJECT_DIR$/databases/example" />
-    <entry file="file://$PROJECT_DIR$/databases/example.db">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="66" selection-start-line="2" selection-start-column="66" selection-end-line="2" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/databases/example.db" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/85fe0565-5964-480b-8b2a-e9b49f024478/console.sql" />
     <entry file="das://85fe0565-5964-480b-8b2a-e9b49f024478/schema/main/table/sqlite_master" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/718c5cff-6edb-444d-bfc3-9cc0dd9e6343/console.sql" />
@@ -725,13 +647,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="614">
           <caret line="103" column="28" selection-start-line="103" selection-start-column="28" selection-end-line="103" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ArgsAndKwargs/excercise.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
@@ -750,13 +665,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ArgsAndKwargs/argsAndKwargs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/databases/database.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="736">
@@ -764,46 +672,152 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/turtle_game/turtle_game.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/course-py/Lib/site-packages/flask/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/turtle_game/turtle_game.py" />
+    <entry file="file://$PROJECT_DIR$/course-py/Lib/site-packages/flask/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/collections_module/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/collections_module/namedtuple_excercise.py" />
     <entry file="file://$PROJECT_DIR$/flask_api_challenge/flask_api.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="83" selection-start-line="83" selection-end-line="83" />
+        <state relative-caret-position="253">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
-            <marker date="1537555189387" expanded="true" signature="448:453" ph="..." />
-            <marker date="1537555189387" expanded="true" signature="611:635" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/functools.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
+        <state relative-caret-position="460">
           <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/collections_module/__init__.py">
+    <entry file="file://$PROJECT_DIR$/ArgsAndKwargs/excercise.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ArgsAndKwargs/argsAndKwargs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebBrowser/browser.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/collections_module/namedtuple_excercise.py">
+    <entry file="file://$PROJECT_DIR$/timeits/timeits.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strings/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strings/1.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pylint/pylint.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/objects_assignment/assignment.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/excercises/1.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robot_framework/log.html" />
+    <entry file="file://$PROJECT_DIR$/playground-py/Lib/site-packages/locust/core.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        <state relative-caret-position="-362">
+          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_scraping/test_site/simple_delay_server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tkinter_demo/tkinterdemo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locust_excercise/html_parsing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="36" column="35" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
+          <folding>
+            <element signature="e#117#130#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locust_excercise/locust_excercise.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robot_framework/test1.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rss_feed/rss_feeds.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_scraping/crawling_web_step1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_scraping/web_scraping.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django/django_project/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="70" column="10" lean-forward="true" selection-start-line="70" selection-start-column="10" selection-end-line="70" selection-end-column="10" />
         </state>
       </provider>
     </entry>
