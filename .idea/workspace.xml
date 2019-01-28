@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="35a8eb8e-0e22-4f3c-9474-a08bb27e598a" name="Default" comment="RSS feeds and Robot Framework added">
-      <change afterPath="$PROJECT_DIR$/locust_excercise/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/locust_excercise/html_parsing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/locust_excercise/locust_excercise.py" afterDir="false" />
+    <list default="true" id="35a8eb8e-0e22-4f3c-9474-a08bb27e598a" name="Default" comment="Django_app">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tkinter_demo/tkinterdemo.py" beforeDir="false" afterPath="$PROJECT_DIR$/tkinter_demo/tkinterdemo.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +37,7 @@
     <SUITE FILE_PATH="coverage/PythonCourse$symmetrical_difference_update.coverage" NAME="symmetrical_difference_update Coverage Results" MODIFIED="1520002922909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sets" />
     <SUITE FILE_PATH="coverage/PythonCourse$excercises.coverage" NAME="excercises Coverage Results" MODIFIED="1531900750857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Functions" />
     <SUITE FILE_PATH="coverage/PythonCourse$shelve__1_.coverage" NAME="shelve (1) Coverage Results" MODIFIED="1528888372443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/shelvePractice" />
+    <SUITE FILE_PATH="coverage/PythonPlayground$tkinterdemo.coverage" NAME="tkinterdemo Coverage Results" MODIFIED="1548409898825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tkinter_demo" />
     <SUITE FILE_PATH="coverage/PythonCourse$dict_unpacking.coverage" NAME="dict_unpacking Coverage Results" MODIFIED="1526377292798" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Dictionaries" />
     <SUITE FILE_PATH="coverage/PythonCourse$substraction.coverage" NAME="substraction Coverage Results" MODIFIED="1519918670762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sets" />
     <SUITE FILE_PATH="coverage/PythonCourse$turtleExcercise.coverage" NAME="turtleExcercise Coverage Results" MODIFIED="1528967743541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tutlePractice" />
@@ -76,79 +75,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web_scraping/web_scraping.py">
+        <entry file="file://$PROJECT_DIR$/django/django_project/manage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web_scraping/crawling_web_step1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1679">
-              <caret line="79" selection-start-line="79" selection-end-line="79" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rss_feed/rss_feeds.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-              <folding>
-                <element signature="e#0#17#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/robot_framework/test1.robot">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/locust_excercise/locust_excercise.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+            <state relative-caret-position="322">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/locust_excercise/html_parsing.py">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="37" column="44" selection-start-line="37" selection-start-column="44" selection-end-line="37" selection-end-column="44" />
-              <folding>
-                <element signature="e#117#130#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web_scraping/test_site/simple_delay_server.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="92">
+              <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -179,12 +118,14 @@
         <option value="$PROJECT_DIR$/collections/namedtuple.py" />
         <option value="$PROJECT_DIR$/collections/namedtuple_excercise.py" />
         <option value="$PROJECT_DIR$/collections_module/namedtuple_excercise.py" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/web_scraping/test_site/simple_delay_server.py" />
         <option value="$PROJECT_DIR$/rss_feed/rss_feeds.py" />
         <option value="$PROJECT_DIR$/robot_framework/test1.robot" />
         <option value="$PROJECT_DIR$/locust_excercise/locust_excercise.py" />
         <option value="$PROJECT_DIR$/locust_excercise/html_parsing.py" />
+        <option value="$PROJECT_DIR$/tkinter_demo/tkinterdemo.py" />
+        <option value="$PROJECT_DIR$/django/django_project/manage.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -214,22 +155,13 @@
             <path>
               <item name="PythonPlayground" type="b2602c69:ProjectViewProjectNode" />
               <item name="PythonPlayground" type="462c0819:PsiDirectoryNode" />
-              <item name="locust_excercise" type="462c0819:PsiDirectoryNode" />
+              <item name="django" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PythonPlayground" type="b2602c69:ProjectViewProjectNode" />
               <item name="PythonPlayground" type="462c0819:PsiDirectoryNode" />
-              <item name="pylint" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PythonPlayground" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PythonPlayground" type="462c0819:PsiDirectoryNode" />
-              <item name="robot_framework" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PythonPlayground" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PythonPlayground" type="462c0819:PsiDirectoryNode" />
-              <item name="rss_feed" type="462c0819:PsiDirectoryNode" />
+              <item name="django" type="462c0819:PsiDirectoryNode" />
+              <item name="django_project" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PythonPlayground" type="b2602c69:ProjectViewProjectNode" />
@@ -261,7 +193,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.rss_feeds">
+  <component name="RunManager" selected="Python.tkinterdemo">
     <configuration name="crawling_web_step1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonPlayground" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -276,28 +208,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/web_scraping/crawling_web_step1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="flask_api" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PythonCourse" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/flask_api_challenge" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/flask_api_challenge/flask_api.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -372,20 +282,42 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="tkinterdemo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PythonPlayground" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tkinter_demo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tkinter_demo/tkinterdemo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.flask_api" />
       <item itemvalue="Python.namedtuple" />
       <item itemvalue="Python.crawling_web_step1" />
       <item itemvalue="Python.simple_delay_server" />
       <item itemvalue="Python.rss_feeds" />
+      <item itemvalue="Python.tkinterdemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.tkinterdemo" />
         <item itemvalue="Python.rss_feeds" />
         <item itemvalue="Python.crawling_web_step1" />
         <item itemvalue="Python.simple_delay_server" />
         <item itemvalue="Python.namedtuple" />
-        <item itemvalue="Python.flask_api" />
       </list>
     </recent_temporary>
   </component>
@@ -401,7 +333,7 @@
       <updated>1519894565203</updated>
       <workItem from="1548173532694" duration="358000" />
       <workItem from="1548173920135" duration="13575000" />
-      <workItem from="1548343851434" duration="957000" />
+      <workItem from="1548343851434" duration="6329000" />
     </task>
     <task id="LOCAL-00001" summary="Sets challenge added">
       <created>1519894728400</created>
@@ -557,14 +489,22 @@
       <option name="project" value="LOCAL" />
       <updated>1548319427030</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Added locust excercise">
+      <created>1548345099092</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1548345099093</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14890000" />
+    <option name="totallyTimeSpent" value="20262000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4994463" visible="true" weight="0.17004265" />
       <window_info id="Structure" order="1" sideWeight="0.5005537" side_tool="true" weight="0.31130064" />
@@ -606,16 +546,10 @@
     <MESSAGE value="Added" />
     <MESSAGE value="Added web_scraping" />
     <MESSAGE value="RSS feeds and Robot Framework added" />
-    <option name="LAST_COMMIT_MESSAGE" value="RSS feeds and Robot Framework added" />
+    <MESSAGE value="Added locust excercise" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added locust excercise" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tutlePractice/turtleExcercise.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/1711764733/time.py" />
     <entry file="file://$PROJECT_DIR$/datacalc/datecalc.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -768,9 +702,6 @@
     <entry file="file://$PROJECT_DIR$/WebBrowser/browser.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/tkinter_demo/tkinterdemo.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/timeits/timeits.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -789,62 +720,11 @@
     <entry file="file://$PROJECT_DIR$/excercises/1.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/robot_framework/log.html" />
     <entry file="file://$PROJECT_DIR$/playground-py/Lib/site-packages/locust/core.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-362">
           <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_scraping/web_scraping.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_scraping/crawling_web_step1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1679">
-          <caret line="79" selection-start-line="79" selection-end-line="79" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rss_feed/rss_feeds.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#0#17#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/robot_framework/test1.robot">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/locust_excercise/locust_excercise.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -858,13 +738,78 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/locust_excercise/html_parsing.py">
+    <entry file="file://$PROJECT_DIR$/tkinter_demo/tkinterdemo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="318">
-          <caret line="37" column="44" selection-start-line="37" selection-start-column="44" selection-end-line="37" selection-end-column="44" />
+          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locust_excercise/html_parsing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="36" column="35" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
           <folding>
             <element signature="e#117#130#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locust_excercise/locust_excercise.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robot_framework/test1.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rss_feed/rss_feeds.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_scraping/crawling_web_step1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_scraping/web_scraping.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django/django_project/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
         </state>
       </provider>
     </entry>
