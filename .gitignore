@@ -67,8 +67,7 @@ fabric.properties
 .idea/PythonPlayground.iml
 .idea/misc.xml
 .idea/vcs.xml
+.idea/workspace.xml
 playground-py/
-#!/django/
-#django/django_project/
 locust_excercise/__pycache__/
 robot_framework/results/
