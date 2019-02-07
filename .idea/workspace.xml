@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="35a8eb8e-0e22-4f3c-9474-a08bb27e598a" name="Default" comment="Tinkerdemo">
+    <list default="true" id="35a8eb8e-0e22-4f3c-9474-a08bb27e598a" name="Default" comment="Templates">
+      <change afterPath="$PROJECT_DIR$/robot_framework/res_utils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/django/django_project/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/django/django_project/blog/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/django/django_project/django_project/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/django/django_project/django_project/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tuples/demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tuples/demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/robot_framework/test1.robot" beforeDir="false" afterPath="$PROJECT_DIR$/robot_framework/test1.robot" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,6 +30,7 @@
     <SUITE FILE_PATH="coverage/PythonCourse$dictionary_comprehension.coverage" NAME="dictionary_comprehension Coverage Results" MODIFIED="1525878317452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Dictionaries" />
     <SUITE FILE_PATH="coverage/PythonCourse$database.coverage" NAME="database Coverage Results" MODIFIED="1532329009782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/databases" />
     <SUITE FILE_PATH="coverage/PythonCourse$any.coverage" NAME="any Coverage Results" MODIFIED="1526631547702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/any_all" />
+    <SUITE FILE_PATH="coverage/PythonPlayground$demo.coverage" NAME="demo Coverage Results" MODIFIED="1549353377697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tuples" />
     <SUITE FILE_PATH="coverage/PythonCourse$argsAndKwargs.coverage" NAME="argsAndKwargs Coverage Results" MODIFIED="1531749969196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ArgsAndKwargs" />
     <SUITE FILE_PATH="coverage/PythonCourse$shelveExcercise.coverage" NAME="shelveExcercise Coverage Results" MODIFIED="1528899376633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/shelvePractice" />
     <SUITE FILE_PATH="coverage/PythonCourse$inherit.coverage" NAME="inherit Coverage Results" MODIFIED="1531213742147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Inheritance" />
@@ -38,7 +40,7 @@
     <SUITE FILE_PATH="coverage/PythonCourse$symmetrical_difference_update.coverage" NAME="symmetrical_difference_update Coverage Results" MODIFIED="1520002922909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sets" />
     <SUITE FILE_PATH="coverage/PythonCourse$excercises.coverage" NAME="excercises Coverage Results" MODIFIED="1531900750857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Functions" />
     <SUITE FILE_PATH="coverage/PythonCourse$shelve__1_.coverage" NAME="shelve (1) Coverage Results" MODIFIED="1528888372443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/shelvePractice" />
-    <SUITE FILE_PATH="coverage/PythonPlayground$tkinterdemo.coverage" NAME="tkinterdemo Coverage Results" MODIFIED="1548409898825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tkinter_demo" />
+    <SUITE FILE_PATH="coverage/PythonPlayground$tkinterdemo.coverage" NAME="tkinterdemo Coverage Results" MODIFIED="1549353372487" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tkinter_demo" />
     <SUITE FILE_PATH="coverage/PythonCourse$dict_unpacking.coverage" NAME="dict_unpacking Coverage Results" MODIFIED="1526377292798" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Dictionaries" />
     <SUITE FILE_PATH="coverage/PythonCourse$substraction.coverage" NAME="substraction Coverage Results" MODIFIED="1519918670762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sets" />
     <SUITE FILE_PATH="coverage/PythonCourse$turtleExcercise.coverage" NAME="turtleExcercise Coverage Results" MODIFIED="1528967743541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tutlePractice" />
@@ -76,19 +78,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/django/django_project/manage.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="12" column="55" lean-forward="true" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/django/django_project/blog/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+            <state>
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -96,11 +89,71 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/django/django_project/blog/templates/blog/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="621">
+              <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/django/django_project/blog/static/blog/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/django/django_project/blog/templates/blog/home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="30" selection-start-column="30" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/robot_framework/test1.robot">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="419">
+              <caret line="47" column="10" lean-forward="true" selection-start-line="47" selection-start-column="10" selection-end-line="47" selection-end-column="10" />
+              <folding>
+                <element signature="e#0#95#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/robot_framework/res_utils.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/django/django_project/blog/templates/blog/about.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/django/django_project/blog/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="115">
-              <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -109,13 +162,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/django/django_project/django_project/urls.py">
+        <entry file="file://$PROJECT_DIR$/django/django_project/blog/apps.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-              <folding>
-                <element signature="e#638#670#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="69">
+              <caret line="3" column="16" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -126,6 +176,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Robot Test Suite" />
+        <option value="HTML File" />
+        <option value="CSS File" />
         <option value="Python Script" />
       </list>
     </option>
@@ -148,15 +200,22 @@
         <option value="$PROJECT_DIR$/collections_module/namedtuple_excercise.py" />
         <option value="$PROJECT_DIR$/web_scraping/test_site/simple_delay_server.py" />
         <option value="$PROJECT_DIR$/rss_feed/rss_feeds.py" />
-        <option value="$PROJECT_DIR$/robot_framework/test1.robot" />
         <option value="$PROJECT_DIR$/locust_excercise/locust_excercise.py" />
         <option value="$PROJECT_DIR$/locust_excercise/html_parsing.py" />
         <option value="$PROJECT_DIR$/tkinter_demo/tkinterdemo.py" />
         <option value="$PROJECT_DIR$/django/django_project/manage.py" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/django/django_project/blog/views.py" />
         <option value="$PROJECT_DIR$/django/django_project/blog/urls.py" />
         <option value="$PROJECT_DIR$/django/django_project/django_project/urls.py" />
+        <option value="$PROJECT_DIR$/django/django_project/django_project/settings.py" />
+        <option value="$PROJECT_DIR$/django/django_project/blog/views.py" />
+        <option value="$PROJECT_DIR$/django/django_project/blog/templates/blog/about.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/django/django_project/blog/static/blog/main.css" />
+        <option value="$PROJECT_DIR$/django/django_project/blog/templates/blog/home.html" />
+        <option value="$PROJECT_DIR$/django/django_project/blog/templates/blog/base.html" />
+        <option value="$PROJECT_DIR$/Tuples/demo.py" />
+        <option value="$PROJECT_DIR$/robot_framework/res_utils.py" />
+        <option value="$PROJECT_DIR$/robot_framework/test1.robot" />
       </list>
     </option>
   </component>
@@ -175,6 +234,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -205,7 +265,52 @@
               <item name="PythonPlayground" type="462c0819:PsiDirectoryNode" />
               <item name="django" type="462c0819:PsiDirectoryNode" />
               <item name="django_project" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PythonPlayground" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PythonPlayground" type="462c0819:PsiDirectoryNode" />
+              <item name="django" type="462c0819:PsiDirectoryNode" />
               <item name="django_project" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PythonPlayground" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PythonPlayground" type="462c0819:PsiDirectoryNode" />
+              <item name="django" type="462c0819:PsiDirectoryNode" />
+              <item name="django_project" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PythonPlayground" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PythonPlayground" type="462c0819:PsiDirectoryNode" />
+              <item name="django" type="462c0819:PsiDirectoryNode" />
+              <item name="django_project" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PythonPlayground" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PythonPlayground" type="462c0819:PsiDirectoryNode" />
+              <item name="django" type="462c0819:PsiDirectoryNode" />
+              <item name="django_project" type="462c0819:PsiDirectoryNode" />
+              <item name="django_project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PythonPlayground" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PythonPlayground" type="462c0819:PsiDirectoryNode" />
+              <item name="robot_framework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PythonPlayground" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PythonPlayground" type="462c0819:PsiDirectoryNode" />
+              <item name="robot_framework" type="462c0819:PsiDirectoryNode" />
+              <item name="results" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PythonPlayground" type="b2602c69:ProjectViewProjectNode" />
@@ -216,14 +321,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="Sqlite (Xerial)" />
-    <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/playground-py/Scripts/robot.exe" />
     <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
   </component>
   <component name="RunDashboard">
@@ -238,7 +339,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.tkinterdemo">
+  <component name="RunManager" selected="Python.demo">
     <configuration name="crawling_web_step1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonPlayground" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -261,20 +362,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="namedtuple" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PythonCourse" />
+    <configuration name="demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PythonPlayground" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/collections" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tuples" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\development\PythonCourse\collections\namedtuple_excercise.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tuples/demo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -350,19 +451,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.namedtuple" />
       <item itemvalue="Python.crawling_web_step1" />
       <item itemvalue="Python.simple_delay_server" />
       <item itemvalue="Python.rss_feeds" />
       <item itemvalue="Python.tkinterdemo" />
+      <item itemvalue="Python.demo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.demo" />
         <item itemvalue="Python.tkinterdemo" />
         <item itemvalue="Python.rss_feeds" />
         <item itemvalue="Python.crawling_web_step1" />
         <item itemvalue="Python.simple_delay_server" />
-        <item itemvalue="Python.namedtuple" />
       </list>
     </recent_temporary>
   </component>
@@ -380,14 +481,15 @@
       <workItem from="1548173920135" duration="13575000" />
       <workItem from="1548343851434" duration="6541000" />
       <workItem from="1548679561976" duration="1765000" />
-      <workItem from="1548688954430" duration="2184000" />
+      <workItem from="1548688954430" duration="14522000" />
+      <workItem from="1549022397467" duration="12002000" />
     </task>
-    <task id="LOCAL-00001" summary="Sets challenge added">
-      <created>1519894728400</created>
+    <task id="LOCAL-00001" summary="Static folder with css files. Changes to templates with bootstrap.">
+      <created>1548846871134</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1519894728400</updated>
+      <updated>1548846871134</updated>
     </task>
     <task id="LOCAL-00002" summary="Sets challenge added">
       <created>1519919561505</created>
@@ -557,20 +659,33 @@
       <option name="project" value="LOCAL" />
       <updated>1548666597080</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Urls">
+      <created>1548744482635</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1548744482636</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Templates">
+      <created>1548830331520</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1548830331520</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24423000" />
+    <option name="totallyTimeSpent" value="14950000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4994463" visible="true" weight="0.17324094" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4994463" visible="true" weight="0.1748401" />
       <window_info id="Structure" order="1" sideWeight="0.5005537" side_tool="true" weight="0.31130064" />
       <window_info id="Favorites" order="2" sideWeight="0.5005537" side_tool="true" weight="0.31130064" />
-      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32887402" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4968017" weight="0.37012264" />
@@ -578,14 +693,15 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32890365" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49946696" visible="true" weight="0.3277592" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49946696" weight="0.3277592" />
       <window_info anchor="bottom" id="Python Console" order="8" sideWeight="0.49946696" weight="0.32887402" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4946695" weight="0.32107022" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.4946695" visible="true" weight="0.32107022" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="11" sideWeight="0.4989339" weight="0.32998884" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5053305" side_tool="true" weight="0.32107022" />
       <window_info anchor="bottom" id="YouTrack" order="13" weight="0.15748899" />
       <window_info anchor="bottom" id="Database Console" order="14" weight="0.32937366" />
+      <window_info anchor="bottom" id="Messages" order="15" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -596,298 +712,104 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Sets challenge added" />
-    <MESSAGE value="Added inheritance module." />
-    <MESSAGE value="Added classes file." />
-    <MESSAGE value="Added exceptions and inheritance files." />
-    <MESSAGE value="Added blackjack challenge" />
-    <MESSAGE value="Added challenge summer_69" />
-    <MESSAGE value="Added OOP module" />
-    <MESSAGE value="Added database module" />
-    <MESSAGE value="Added" />
-    <MESSAGE value="Added web_scraping" />
-    <MESSAGE value="RSS feeds and Robot Framework added" />
-    <MESSAGE value="Added locust excercise" />
-    <MESSAGE value="Django_app" />
-    <MESSAGE value="Tinkerdemo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tinkerdemo" />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Inheritance/classes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Inheritance/challenge.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exceptions/except.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exceptions/challenge.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/module.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/challenge.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1610">
-          <caret line="70" column="54" selection-start-line="70" selection-start-column="54" selection-end-line="70" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/milestone/milestoneOne.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/-138210731/builtins.py" />
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="64" lean-forward="true" selection-start-line="12" selection-start-column="64" selection-end-line="12" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/modules.xml" />
-    <entry file="file://$PROJECT_DIR$/databases/example" />
-    <entry file="file://$PROJECT_DIR$/databases/example.db" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/85fe0565-5964-480b-8b2a-e9b49f024478/console.sql" />
-    <entry file="das://85fe0565-5964-480b-8b2a-e9b49f024478/schema/main/table/sqlite_master" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/718c5cff-6edb-444d-bfc3-9cc0dd9e6343/console.sql" />
-    <entry file="file://$PROJECT_DIR$/OOP/object_oriented_programming.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Functions/excercises.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="614">
-          <caret line="103" column="28" selection-start-line="103" selection-start-column="28" selection-end-line="103" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://85fe0565-5964-480b-8b2a-e9b49f024478/schema/main/table/stocks" />
-    <entry file="file://$PROJECT_DIR$/modules/challenge_explained.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2599">
-          <caret line="113" selection-start-line="113" selection-end-line="113" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lists/list.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/databases/database.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="32" column="42" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/turtle_game/turtle_game.py" />
-    <entry file="file://$PROJECT_DIR$/course-py/Lib/site-packages/flask/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/collections_module/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/collections_module/namedtuple_excercise.py" />
-    <entry file="file://$PROJECT_DIR$/flask_api_challenge/flask_api.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/functools.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ArgsAndKwargs/excercise.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ArgsAndKwargs/argsAndKwargs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebBrowser/browser.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/timeits/timeits.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/strings/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/strings/1.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pylint/pylint.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/objects_assignment/assignment.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/excercises/1.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/robot_framework/log.html" />
-    <entry file="file://$PROJECT_DIR$/playground-py/Lib/site-packages/locust/core.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-362">
-          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_scraping/test_site/simple_delay_server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tkinter_demo/tkinterdemo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/locust_excercise/html_parsing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="36" column="35" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
-          <folding>
-            <element signature="e#117#130#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/locust_excercise/locust_excercise.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/robot_framework/test1.robot">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rss_feed/rss_feeds.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#0#17#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_scraping/crawling_web_step1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="79" selection-start-line="79" selection-end-line="79" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_scraping/web_scraping.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="70" column="10" lean-forward="true" selection-start-line="70" selection-start-column="10" selection-end-line="70" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/django/django_project/manage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="12" column="55" lean-forward="true" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/django/django_project/blog/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+        <state>
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/django/django_project/django_project/urls.py">
+    <entry file="file://$PROJECT_DIR$/django/django_project/blog/templates/blog/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="e#638#670#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="621">
+          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django/django_project/blog/templates/blog/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/django/django_project/blog/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
-          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django/django_project/blog/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django/django_project/blog/static/blog/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tuples/demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tuples/tuples.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sets/sets.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django/django_project/blog/templates/blog/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="30" selection-start-column="30" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robot_framework/output.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robot_framework/res_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robot_framework/results/log.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/playground-py/Lib/site-packages/SSHLibrary/library.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3674">
+          <caret line="1149" column="8" selection-start-line="1149" selection-start-column="8" selection-end-line="1149" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robot_framework/test1.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="47" column="10" lean-forward="true" selection-start-line="47" selection-start-column="10" selection-end-line="47" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#95#0" expanded="true" />
           </folding>
         </state>
       </provider>
