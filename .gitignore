@@ -71,3 +71,5 @@ fabric.properties
 playground-py/
 locust_excercise/__pycache__/
 robot_framework/results/
+report.html
+log.html

@@ -7,11 +7,11 @@ Library    res_utils.py
 Test1
     [Tags]    DEBUG
     [Documentation]
-    open connection     xxmkt1055   prompt=${prompt_without_go}
-    SSHLibrary.Login    root    performance
-    Write Command   ls
-    Login to Prosys and Go Oltp
-    Log  ${outstr}
+#    open connection     xxmkt1055   prompt=${prompt_without_go}
+#    SSHLibrary.Login    root    performance
+#    Write Command   ls
+#    Login to Prosys and Go Oltp
+    Log  IGT
 
 
 *** Keywords ***
