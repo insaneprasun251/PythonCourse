@@ -15,7 +15,7 @@ Library    res_utils.py
 
 
 Test2
-    open connection  xxmkt1055  timeout=60  prompt=${prompt_without_go}
+    open connection  ${machine_name}  timeout=60  prompt=${prompt_without_go}
     SSHLibrary.login    root    performance
     set client configuration  prompt=${prompt_after_prosys}
     Write Command  su - prosys
@@ -69,9 +69,14 @@ Run RPC
     Write Command   $USEC/bin/rpc -t ${user} -p ${product} ${function} ${action} ${draw} ${set_number} "${win_numbers}" "${win_plus}" ${win_power} ${win_super} ${win_promo} ${greenball} ${multiplier}
 
 *** Variables ***
-${prompt_without_go}   [root@xxmkt1055 ~]#
-${prompt_after_prosys}  [xxmkt1055.gtk.gtech.com::prosys]:/home/prosys
-${prompt}   [xxmkt1055.gtk.gtech.com:/oltp:prosys]:/oltp
+${username}     root
+${password}     performance
+${prosys}       prosys
+${env_name}     oltp
+${machine_name}     xxmkt1055
+${prompt_without_go}   [${username}@${machine_name} ~]#
+${prompt_after_prosys}  [${machine_name}.gtk.gtech.com::${prosys}]:/home/${prosys}
+${prompt}   [${machine_name}.gtk.gtech.com:/oltp:${prosys}]:/${env_name}
 ${out}  ''
 ${user}     1
 ${function}     enter_win_nbrs

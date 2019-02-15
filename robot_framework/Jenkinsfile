@@ -1,0 +1,184 @@
+#!groovy
+pipeline {
+    agent none
+    stages {
+        stage('prepare') {
+            parallel {
+                stage('environment') {
+                    agent {
+                        label 'robot'
+                    }
+                    when {
+                        // beforeAgent true
+                        expression {
+                            return !(env.ENVIRONMENT ==~ '.*-APL2-.*')
+                        }
+                    }
+                    steps {
+                        checkout scm
+                        withPythonEnv('CPython-3.6'){
+                            pysh 'python -m pip install -U --upgrade-strategy eager -r requirements.txt'
+                        }
+                        echo "Python Environment ready."
+                    }
+                }
+                stage('environment APL2') {
+                    agent {
+                        label 'cicdjenkinsslave2'
+                    }
+                    when {
+                        //beforeAgent true
+                        expression {
+                            return env.ENVIRONMENT ==~ '.*-APL2-.*'
+                        }
+                    }
+                    steps {
+                        checkout scm
+                        withPythonEnv('CPython-3.6'){
+                            pysh 'python -m pip install -U --upgrade-strategy eager -r requirements.txt'
+                        }
+                        echo 'Python Environment ready.'
+                    }
+                }
+                stage('arguments'){
+                    //skipDefaultCheckout true
+                    agent {
+                        label 'robot'
+                    }
+                    when {
+                        // beforeAgent true
+                        expression {
+                            return env.SUITES ?: '' != ''
+                        }
+                    }
+                    // when { expression { return env. TESTAMP_PROXY_URL ?: null != null } }
+                    // when { expression { return binding.hasVariable('TESTAMP_PROXY_URL') } }
+                    // environment{
+                    //     TESTAMP_RUN_ENV="$(env.ENVIRONMENT)"
+                    // }
+                    steps {
+                        sh "rm -f argumentfile > /dev/null"
+                        sh "echo --nostatusrc >> argumentfile"
+                        sh "echo --exitonfailure >> argumentfile"
+                        sh "echo --noncritical noncritical >> argumentfile"
+                        sh "echo --consolecolors ANSI >> argumentfile"
+                        sh "echo --pythonpath ./libs:./resources:. >> argumentfile"
+                        script {
+                            for (String item : params.SUITES.tokenize()) {
+                                sh "echo --suite=$item >> argumentfile"
+                            }
+                            if (params.TESTS != null){
+                                for (String item : params.TESTS.tokenize()){
+                                    sh "echo --test=$item >> argumentfile"
+                                }
+                            }
+                            if (params.INCLUDED_TAGS != null){
+                                for (String item : params.INCLUDED_TAGS.tokenize()){
+                                    sh "echo --include=$item >> argumentfile"
+                                }
+                            }
+                            if (params.EXCLUDED_TAGS != null){
+                                for (String item : params.EXCLUDED_TAGS.tokenize()){
+                                    sh "echo --exclude=$item >> argumentfile"
+                                }
+                            }
+                            if (params.EXCLUDED_PRODUCTS != null && params.EXCLUDED_PRODUCTS != '') {
+                                    sh "echo --variable EXCLUDED_PRODUCTS:\"${EXCLUDED_PRODUCTS}\" >> argumentfile"
+                            }
+                        }
+                        // sh "echo --variable run_env:${ENVIRONMENT} >> ${env.WORKSPACE}/argumentfile"
+                        sh "echo --variable STARTOVER_CDC:${env.STARTOVER_CDC ?: '0'} >> argumentfile"
+                        sh "echo ${env.EXTRA_PARAMS ?: ''} >> argumentfile"
+                        sh "echo --loglevel ${env.LOG_LEVEL ?: 'INFO'} >> argumentfile"
+                        sh "echo --outputdir report >> argumentfile"
+                        sh "echo --runemptysuite >> argumentfile"
+                        // sh "echo --variable Rolling_time_allowed:${ROLLING_TIME_ALLOWED} >> ${env.WORKSPACE}/argumentfile"
+                        // sh "echo --variable Process_outstanding_draws:False >> ${env.WORKSPACE}/argumentfile"
+                        // sh "echo --variable Create_ssh_connections:False >> ${env.WORKSPACE}/argumentfile"
+                        stash includes: 'argumentfile', name: 'argumentfile'
+                    }
+                }
+            }
+        }
+        stage('robot tests'){
+            agent{
+                label 'robot'
+            }
+            when {
+                // beforeAgent true
+                expression {
+                    return env.SUITES ?: '' != ''
+                }
+                expression {
+                    return !(env.ENVIRONMENT ==~ '.*-APL2-.*')
+                }
+            }
+            steps {
+                unstash 'argumentfile'
+                sh '''
+                    echo Using argumentfile:
+                    cat argumentfile
+                '''
+                withEnv(["TESTAMP_RUN_ENV=${env.ENVIRONMENT ?: 'default'}", "TESTAMP_PROXY_URL=${env.TESTAMP_PROXY_URL ?: 'http://polutestamp.mis.gtech.com:9997'}"]) {
+                    withPythonEnv('CPython-3.6'){
+                        ansiColor('xterm'){
+                            pysh 'python -u -m robot.run --name RIC --argumentfile argumentfile .'
+                        }
+                    }
+                }
+                stash includes: 'report/*', name: 'reportfiles'
+            }
+        }
+        stage('robot tests APL') {
+	    	agent {
+	    		label 'cicdjenkinsslave2'
+	    	}
+			when {
+			    //beforeAgent true
+				expression {
+					return env.SUITES ?: '' != ''
+				}
+			  	expression {
+			  		return env.ENVIRONMENT ==~ '.*-APL2-.*'
+			  	}
+			}
+			steps {
+			    unstash 'argumentfile'
+		        withEnv(["TESTAMP_RUN_ENV=${env.ENVIRONMENT ?: 'default'}",
+		                 "TESTAMP_PROXY_URL=${env.TESTAMP_PROXY_URL ?: 'http://polutestamp.mis.gtech.com:9997'}"]) {
+				    withPythonEnv('CPython-3.6'){
+				        ansiColor('xterm') {
+				            pysh 'python -u -m robot.run --name RIC --argumentfile argumentfile .'
+				        }
+				    }
+		        }
+		        stash includes: 'report/*', name: 'reportfiles'
+			}
+		}
+        stage('publish results') {
+            agent {
+                label 'robot'
+            }
+            when {
+                // beforeAgent true
+                expression {
+                    return env.SUITES ?: '' != ''
+                }
+            }
+            steps {
+                unstash 'reportfiles'
+                step([$class : 'RobotPublisher',
+                    outputPath : 'report/',
+                    outputFileName : "*.xml",
+                    logFileName : "log.html",
+                    reportFileName : "report.html"
+                    disableArchiveOutput : false,
+                    passThreshold : 100,
+                    unstableThreshold : 95.0,
+                    otherFiles : "*.png",
+                    ])
+                archiveArtifacts artifacts: 'report/*'
+            }
+        }
+    }
+}
