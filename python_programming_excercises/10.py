@@ -19,3 +19,22 @@ for number in numbers:
     intp = int(number, 2)
     if not intp % 5:
         print(number)
+
+from typing import List
+
+
+def fib():
+    current, next = 0, 1
+    while True:
+        current, next = next, current + next
+        yield current
+
+
+result = fib()
+for n in result:
+    print(n, end=', ')
+    if n > 10000:
+        break
+
+if __name__ == '__main__':
+    print(fib)
